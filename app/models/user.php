@@ -5,7 +5,7 @@ Chronicle\Base::setup_connection([
   'host'     => 'localhost',
   'username' => 'root',
   'password' => '',
-  'database' => 'chronicle_test'
+  'database' => 'make-it-all'
 ]);
 
 class User extends Chronicle\Base {
