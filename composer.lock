@@ -85,12 +85,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/system.git",
-                "reference": "e75bc0dd914eeae761bbcad7ef173e910c6c2377"
+                "reference": "2d72788e76e59ae94298d8c8adb2809702b55e1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/system/zipball/e75bc0dd914eeae761bbcad7ef173e910c6c2377",
-                "reference": "e75bc0dd914eeae761bbcad7ef173e910c6c2377",
+                "url": "https://api.github.com/repos/make-it-all/system/zipball/2d72788e76e59ae94298d8c8adb2809702b55e1a",
+                "reference": "2d72788e76e59ae94298d8c8adb2809702b55e1a",
                 "shasum": ""
             },
             "require": {
@@ -120,7 +120,7 @@
                 "source": "https://github.com/make-it-all/system/tree/master",
                 "issues": "https://github.com/make-it-all/system/issues"
             },
-            "time": "2017-02-13 19:52:27"
+            "time": "2017-02-13 21:24:08"
         }
     ],
     "packages-dev": [],
