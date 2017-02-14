@@ -85,12 +85,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/system.git",
-                "reference": "941cd641f183c6495992d588db6ed0abd11b5cb7"
+                "reference": "abddc0d3816a4c8a727bc58170908e97a4d241da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/system/zipball/941cd641f183c6495992d588db6ed0abd11b5cb7",
-                "reference": "941cd641f183c6495992d588db6ed0abd11b5cb7",
+                "url": "https://api.github.com/repos/make-it-all/system/zipball/abddc0d3816a4c8a727bc58170908e97a4d241da",
+                "reference": "abddc0d3816a4c8a727bc58170908e97a4d241da",
                 "shasum": ""
             },
             "require": {
@@ -103,7 +103,8 @@
                     "src/Application.php",
                     "src/ControllerBase.php",
                     "src/Router.php",
-                    "src/Route.php"
+                    "src/Route.php",
+                    "src/Logger.php"
                 ],
                 "psr-4": {
                     "Middleware\\": "src/Middleware",
@@ -120,7 +121,7 @@
                 "source": "https://github.com/make-it-all/system/tree/master",
                 "issues": "https://github.com/make-it-all/system/issues"
             },
-            "time": "2017-02-13 23:53:58"
+            "time": "2017-02-14 00:07:08"
         }
     ],
     "packages-dev": [],
