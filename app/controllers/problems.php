@@ -1,11 +1,13 @@
 <?php
 
+require Application::$paths['models'].'/problem.php';
+
 class ProblemsController extends Controller\Base {
 
   public $view_folder = 'problems';
 
   public function index(){
-    $this->problem = Problem::all();
+    $this->problems = Problem::all();
   }
 
   public function edit(){
