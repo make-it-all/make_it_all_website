@@ -1,0 +1,6 @@
+Begin GET to / on localhost at Mon, 13 Feb 2017 23:55:51 +0100
+Finish 404 in 7.4863433837891E-5ms
+Begin GET to / on localhost at Tue, 14 Feb 2017 00:01:14 +0100
+Finish 404 in 7.0810317993164E-5ms
+Begin GET to / on localhost at Tue, 14 Feb 2017 00:03:04 +0100
+Finish 404 in 8.1062316894531E-5ms

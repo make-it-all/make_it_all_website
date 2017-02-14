@@ -3,9 +3,9 @@
 Chronicle\Base::setup_connection([
   'driver'   => 'mysql',
   'host'     => 'localhost',
-  'username' => 'root',
-  'password' => '',
-  'database' => 'chronicle_test'
+  'username' => 'LboroAdmin',
+  'password' => 'pass123',
+  'database' => 'make-it-all'
 ]);
 
 class User extends Chronicle\Base {
