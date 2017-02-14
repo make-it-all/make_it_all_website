@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/chronicle.git",
-                "reference": "79072f5f558df4c2f11ce5e57f3faba716c1b0d5"
+                "reference": "c764ee9445616aa551dbe2b33db88d1b104f9739"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/79072f5f558df4c2f11ce5e57f3faba716c1b0d5",
-                "reference": "79072f5f558df4c2f11ce5e57f3faba716c1b0d5",
+                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/c764ee9445616aa551dbe2b33db88d1b104f9739",
+                "reference": "c764ee9445616aa551dbe2b33db88d1b104f9739",
                 "shasum": ""
             },
             "type": "library",
@@ -40,7 +40,7 @@
                 "source": "https://github.com/make-it-all/chronicle/tree/master",
                 "issues": "https://github.com/make-it-all/chronicle/issues"
             },
-            "time": "2017-02-13T20:14:03+00:00"
+            "time": "2017-02-13T23:36:35+00:00"
         },
         {
             "name": "hexmodr/rack",
@@ -48,12 +48,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/rack.git",
-                "reference": "5f02951fe607cd1f3f0cdeec6be2b9c31a2c173c"
+                "reference": "9ae7700ef3a81946f0a13569929b4544751e656b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/rack/zipball/5f02951fe607cd1f3f0cdeec6be2b9c31a2c173c",
-                "reference": "5f02951fe607cd1f3f0cdeec6be2b9c31a2c173c",
+                "url": "https://api.github.com/repos/make-it-all/rack/zipball/9ae7700ef3a81946f0a13569929b4544751e656b",
+                "reference": "9ae7700ef3a81946f0a13569929b4544751e656b",
                 "shasum": ""
             },
             "type": "library",
@@ -76,7 +76,7 @@
                 "source": "https://github.com/make-it-all/rack/tree/master",
                 "issues": "https://github.com/make-it-all/rack/issues"
             },
-            "time": "2017-02-13T19:51:21+00:00"
+            "time": "2017-02-13T21:44:30+00:00"
         },
         {
             "name": "make_it_all/system",
@@ -84,12 +84,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/system.git",
-                "reference": "e75bc0dd914eeae761bbcad7ef173e910c6c2377"
+                "reference": "abddc0d3816a4c8a727bc58170908e97a4d241da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/system/zipball/e75bc0dd914eeae761bbcad7ef173e910c6c2377",
-                "reference": "e75bc0dd914eeae761bbcad7ef173e910c6c2377",
+                "url": "https://api.github.com/repos/make-it-all/system/zipball/abddc0d3816a4c8a727bc58170908e97a4d241da",
+                "reference": "abddc0d3816a4c8a727bc58170908e97a4d241da",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,8 @@
                     "src/Application.php",
                     "src/ControllerBase.php",
                     "src/Router.php",
-                    "src/Route.php"
+                    "src/Route.php",
+                    "src/Logger.php"
                 ],
                 "psr-4": {
                     "Middleware\\": "src/Middleware",
@@ -119,7 +120,7 @@
                 "source": "https://github.com/make-it-all/system/tree/master",
                 "issues": "https://github.com/make-it-all/system/issues"
             },
-            "time": "2017-02-13T19:52:27+00:00"
+            "time": "2017-02-14T00:07:08+00:00"
         }
     ],
     "packages-dev": [],
