@@ -21,7 +21,7 @@
             <td><?php echo $user->read_attribute('personnel_id') ?></td>
             <td><?php echo $user->read_attribute('name') ?></td>
             <td><?php echo $user->read_attribute('email') ?></td>
-            <td><a href="#">Edit</a></td>
+            <td><a href="/users/<?php echo $user->read_attribute('id')?>/edit">Edit</a></td>
             <td><a href="#">Delete</a></td>
           </tr>
         <?php endforeach; ?>

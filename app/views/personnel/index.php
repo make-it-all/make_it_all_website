@@ -25,7 +25,7 @@
             <td><?php echo $personnel->read_attribute('job_title') ?></td>
             <td><?php echo $personnel->read_attribute('email') ?></td>
             <td><?php echo $personnel->read_attribute('telephone_number') ?></td>
-            <td><a href="#">Edit</a></td>
+            <td><a href="/personnel/<?php echo $personnel->read_attribute('id')?>/edit">Edit</a></td>
             <td><a href="#">Delete</a></td>
           </tr>
         <?php endforeach; ?>

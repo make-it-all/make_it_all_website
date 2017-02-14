@@ -23,7 +23,7 @@
             <td><?php echo $call->read_attribute('caller_id') ?></td>
             <td><?php echo $call->read_attribute('operator_id') ?></td>
             <td><?php echo $call->read_attribute('created_at') ?></td>
-            <td><a href="#">Edit</a></td>
+            <td><a href="/calls/<?php echo $call->read_attribute('id')?>/edit">Edit</a></td>
             <td><a href="#">Delete</a></td>
           </tr>
         <?php endforeach; ?>

@@ -25,7 +25,7 @@
             <td><?php echo $problem->read_attribute('specialization_id') ?></td>
             <td><?php echo $problem->read_attribute('assigned_to') ?></td>
             <td><?php echo $problem->read_attribute('solution_id') ?></td>
-            <td><a href="#">Edit</a></td>
+            <td><a href="/problems/<?php echo $problem->read_attribute('id')?>/edit">Edit</a></td>
             <td><a href="#">Delete</a></td>
           </tr>
         <?php endforeach; ?>
