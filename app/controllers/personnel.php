@@ -11,7 +11,7 @@ class PersonnelController extends Controller\Base {
   }
 
   public function edit(){
-
+    $this->id = $this->params['id'];
   }
 
   public function new(){

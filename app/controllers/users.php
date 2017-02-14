@@ -11,7 +11,8 @@ class UsersController extends Controller\Base {
   }
 
   public function edit(){
-
+    $this->id = $this->params['id'];
+    // $this->user = User::where($id);
   }
 
   public function new(){
