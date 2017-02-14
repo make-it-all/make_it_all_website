@@ -12,11 +12,11 @@ class UsersController extends Controller\Base {
 
   public function edit(){
     $this->id = $this->params['id'];
-    // $this->user = User::find($this->params['id']);
+    //$this->user = User::find($this->params['id']);
   }
 
   public function new(){
-
+    $this->id = "new";
   }
 
   public function create() {

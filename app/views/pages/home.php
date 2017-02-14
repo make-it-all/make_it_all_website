@@ -5,7 +5,6 @@
     <title>HOME</title>
   </head>
   <body>
-    This is the home page;
-    <?php var_dump($user); ?>
+    This is the home page
   </body>
 </html>

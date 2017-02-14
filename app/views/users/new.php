@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>NEW USER</title>
+    <title>User - <?php echo $id ?></title>
   </head>
   <body>
     <form action="/users" method="post">

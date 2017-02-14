@@ -20,8 +20,8 @@
       <tbody>
         <?php foreach ($personnels as $personnel): ?>
           <tr>
-            <td><?php echo $personnel->read_attribute('name') ?></td>
             <td><?php echo $personnel->read_attribute('personnel_id') ?></td>
+            <td><?php echo $personnel->read_attribute('name') ?></td>
             <td><?php echo $personnel->read_attribute('job_title') ?></td>
             <td><?php echo $personnel->read_attribute('email') ?></td>
             <td><?php echo $personnel->read_attribute('telephone_number') ?></td>

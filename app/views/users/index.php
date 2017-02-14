@@ -27,5 +27,6 @@
         <?php endforeach; ?>
       </tbody>
     </table>
+    <a href="/users/new">New</a>
   </body>
 </html>
