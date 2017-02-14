@@ -12,7 +12,7 @@ class UsersController extends Controller\Base {
 
   public function edit(){
     $this->id = $this->params['id'];
-    // $this->user = User::where($id);
+    // $this->user = User::find($this->params['id']);
   }
 
   public function new(){
