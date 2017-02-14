@@ -1,0 +1,32 @@
+Begin GET to / on localhost at Mon, 13 Feb 2017 23:55:51 +0100
+Finish 404 in 7.4863433837891E-5ms
+Begin GET to / on localhost at Tue, 14 Feb 2017 00:01:14 +0100
+Finish 404 in 7.0810317993164E-5ms
+Begin GET to / on localhost at Tue, 14 Feb 2017 00:03:04 +0100
+Finish 404 in 8.1062316894531E-5ms
+Begin GET to / on localhost at Tue, 14 Feb 2017 00:25:21 +0000
+Finish 200 in 4.841ms
+Begin GET to / on localhost at Tue, 14 Feb 2017 00:25:32 +0000
+Finish 200 in 2.071ms
+Begin GET to / on localhost at Tue, 14 Feb 2017 00:25:43 +0000
+Finish 200 in 4.507ms
+Begin GET to /users on localhost at Tue, 14 Feb 2017 00:25:50 +0000
+Finish 200 in 3.125ms
+Begin GET to /users on localhost at Tue, 14 Feb 2017 00:27:48 +0000
+Finish 200 in 1.803ms
+Begin GET to /users on localhost at Tue, 14 Feb 2017 00:28:10 +0000
+Finish 200 in 3.052ms
+Begin GET to /users on localhost at Tue, 14 Feb 2017 00:28:22 +0000
+Finish 200 in 2.327ms
+Begin GET to /users on localhost at Tue, 14 Feb 2017 00:28:27 +0000
+Finish 200 in 1.889ms
+Begin GET to /users/new on localhost at Tue, 14 Feb 2017 00:28:40 +0000
+Finish 200 in 1.568ms
+Begin GET to /users/new on localhost at Tue, 14 Feb 2017 00:29:57 +0000
+Finish 200 in 0.225ms
+Begin GET to /users/new on localhost at Tue, 14 Feb 2017 00:30:05 +0000
+Finish 200 in 0.194ms
+Begin GET to /users/new on localhost at Tue, 14 Feb 2017 00:30:35 +0000
+Finish 200 in 0.156ms
+Begin GET to /users on localhost at Tue, 14 Feb 2017 00:32:06 +0000
+Finish 200 in 1.847ms

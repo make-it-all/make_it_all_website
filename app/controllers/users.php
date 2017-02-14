@@ -17,4 +17,8 @@ class UsersController extends Controller\Base {
   public function new(){
 
   }
+
+  public function create() {
+    var_dump($_POST);
+  }
 }
