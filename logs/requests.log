@@ -1088,3 +1088,11 @@ Begin GET to /users on localhost at Thu, 16 Feb 2017 13:16:37 +0000
 Finish 200 in 0.759ms
 Begin GET to /favicon.ico on localhost at Thu, 16 Feb 2017 13:16:38 +0000
 Finish page_not_found in 0.181ms
+Begin GET to /users on localhost at Thu, 16 Feb 2017 13:36:07 +0000
+Finish 200 in 0.958ms
+Begin GET to /favicon.ico on localhost at Thu, 16 Feb 2017 13:36:08 +0000
+Finish page_not_found in 0.202ms
+Begin GET to / on localhost at Thu, 16 Feb 2017 13:36:11 +0000
+Finish 200 in 0.372ms
+Begin GET to /favicon.ico on localhost at Thu, 16 Feb 2017 13:36:11 +0000
+Finish page_not_found in 0.209ms
