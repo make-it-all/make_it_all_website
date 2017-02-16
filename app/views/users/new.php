@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>User - <?php echo $id ?></title>
+    <title>User -</title>
   </head>
   <body>
     <form action="/users" method="post">
@@ -20,4 +20,4 @@
       </div>
     </form>
   </body>
-</html>
+</html> -->

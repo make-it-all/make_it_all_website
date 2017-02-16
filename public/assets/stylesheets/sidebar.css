@@ -1,0 +1,26 @@
+#side_bar {
+  width: 230px;
+  background: #333;
+  text-align: right;
+  color: white;
+  padding: 15px;
+}
+
+#side_bar section {
+  padding: 10px 15px
+}
+#side_bar section + section {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+#side_bar a {
+  color: white;
+  line-height: 30px;
+  display: block;
+}
+
+#side_bar h4 {
+  color: white;
+  opacity: 0.5;
+  line-height: 5px;
+}
