@@ -110,3 +110,11 @@ Begin GET to /problems/lkl on localhost at Tue, 14 Feb 2017 17:05:32 +0000
 Finish 404 in 0.166ms
 Begin GET to /favicon.ico on localhost at Tue, 14 Feb 2017 17:05:32 +0000
 Finish 404 in 0.078ms
+Begin GET to / on localhost at Thu, 16 Feb 2017 14:35:10 +0100
+Finish 200 in 16.776ms
+Begin GET to /favicon.ico on localhost at Thu, 16 Feb 2017 14:35:10 +0100
+Finish 404 in 0.203ms
+Begin GET to /favicon.ico on localhost at Thu, 16 Feb 2017 14:35:10 +0100
+Finish 404 in 0.059ms
+Begin GET to /users on localhost at Thu, 16 Feb 2017 14:36:14 +0100
+Finish 200 in 12.272ms

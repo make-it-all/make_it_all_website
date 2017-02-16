@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bfc08e0fe288bde50625e27215932edb",
     "content-hash": "7bf364e7dbaade3cbed76b29f525781a",
     "packages": [
         {
@@ -41,7 +40,7 @@
                 "source": "https://github.com/make-it-all/chronicle/tree/master",
                 "issues": "https://github.com/make-it-all/chronicle/issues"
             },
-            "time": "2017-02-13 23:36:35"
+            "time": "2017-02-13T23:36:35+00:00"
         },
         {
             "name": "hexmodr/rack",
@@ -77,7 +76,7 @@
                 "source": "https://github.com/make-it-all/rack/tree/master",
                 "issues": "https://github.com/make-it-all/rack/issues"
             },
-            "time": "2017-02-13 21:44:30"
+            "time": "2017-02-13T21:44:30+00:00"
         },
         {
             "name": "make_it_all/system",
@@ -85,12 +84,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/system.git",
-                "reference": "c9d96400974e098d66df351af93a6178ffd1ccd3"
+                "reference": "95cca01e48b24679391701be58e553b7499f59a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/system/zipball/c9d96400974e098d66df351af93a6178ffd1ccd3",
-                "reference": "c9d96400974e098d66df351af93a6178ffd1ccd3",
+                "url": "https://api.github.com/repos/make-it-all/system/zipball/95cca01e48b24679391701be58e553b7499f59a5",
+                "reference": "95cca01e48b24679391701be58e553b7499f59a5",
                 "shasum": ""
             },
             "require": {
@@ -101,14 +100,12 @@
             "autoload": {
                 "files": [
                     "src/Application.php",
-                    "src/ControllerBase.php",
-                    "src/Router.php",
-                    "src/Route.php",
-                    "src/Logger.php"
+                    "src/ControllerBase.php"
                 ],
                 "psr-4": {
                     "Middleware\\": "src/Middleware",
-                    "Application\\": "src/Application"
+                    "Application\\": "src/Application",
+                    "Error\\": "src/Errors"
                 }
             },
             "authors": [
@@ -121,7 +118,7 @@
                 "source": "https://github.com/make-it-all/system/tree/master",
                 "issues": "https://github.com/make-it-all/system/issues"
             },
-            "time": "2017-02-14 16:23:17"
+            "time": "2017-02-16T13:15:42+00:00"
         }
     ],
     "packages-dev": [],
