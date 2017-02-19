@@ -2,15 +2,44 @@
 
 class PersonnelController extends ApplicationController {
 
-  public function index(){
-    // $this->personnels = Personnel::all();
+  public function index() {
+    $this->personnel = Personnel::all()->results();
   }
 
-  public function edit(){
-    // $this->id = $this->params['id'];
+  public function new() {
+    $this->personnel = Personnel::new();
   }
 
-  public function new(){
-
+  public function create() {
+    var_dump($this->personnel_params());
+    $this->personnel = Personnel::new($this->personnel_params());
+    if ($this->personnel->save()) {
+      $this->redirect_to('index', ['success'=>'personnel created']);
+    } else {
+      $this->render('new');
+    }
   }
+
+  public function edit() {
+    $this->personnel = Personnel::find($this->params['id']);
+  }
+
+  public function update() {
+    $this->personnel = Personnel::find($this->params['id']);
+    if ($this->personnel->update($this->personnel_params())) {
+      $this->redirect_to('index', ['success'=>'personnel updated']);
+    } else {
+      $this->render('edit');
+    }
+  }
+
+  public function destroy() {
+    $personnel = Personnel::find($this->params['id']);
+    $personnel->destroy();
+    $this->redirect_to('/personnel', ['success'=>'personnel deleted']);
+  }
+  private function personnel_params() {
+    return $this->params->require('personnel')->permit('name', 'email', 'password', 'personnel_id');
+  }
+
 }
