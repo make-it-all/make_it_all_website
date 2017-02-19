@@ -10,6 +10,9 @@
     <?php $this->include_stylesheet('sidebar'); ?>
     <?php $this->include_javascript('jquery'); ?>
     <?php $this->include_javascript('application'); ?>
+    <?php $this->include_javascript('filter'); ?>
+    <?php $this->include_javascript('table'); ?>
+    <?php $this->include_javascript('pagination'); ?>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">

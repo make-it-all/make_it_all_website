@@ -2,7 +2,9 @@
   <div id="page_info">
     <div id="page_title">
       <h1><?php echo $users->count() . ' ' . $this->i('titles.users'); ?></h1>
-      <?php echo $this->link_to($this->i('actions.new'), '/users/new'); ?>
+      <div id="page_actions">
+        <?php echo $this->link_to($this->i('actions.new'), '/users/new'); ?>
+      </div>
     </div>
     <?php if (isset($facts)): ?>
       <div id="page_stats">
@@ -13,12 +15,18 @@
     <?php endif; ?>
   </div>
   <div id="page_filter">
-    <div class="fitler">
+    <div class="filter">
       <h5><?php echo $this->i('table_headings.type'); ?></h5>
-      <?php echo $this->i('titles.hardware') . $this->icon('desktop'); ?>
-      <?php echo $this->i('titles.software') . $this->icon('file-code-o'); ?>
+      <div class="filter_button">
+        <?php echo $this->i('titles.hardware') . $this->icon('desktop'); ?>
+      </div>
+      <div class="filter_button">
+        <?php echo $this->i('titles.software') . $this->icon('file-code-o'); ?>
+      </div>
     </div>
-    <?php $this->render('search_form'); ?>
+    <div class="search_bar">
+      <?php $this->render('search_form'); ?>
+    </div>
 
   </div>
 </div>
