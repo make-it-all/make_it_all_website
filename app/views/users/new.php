@@ -1,23 +1,15 @@
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>User -</title>
-  </head>
-  <body>
-    <form action="/users" method="post">
-      <h1>New User</h1>
-      <div class="field">
-        <label for="user_name">Name</label>
-        <input type="text" id="user_name" name="user[name]">
-      </div>
-      <div class="field">
-        <label for="user_email">Email</label>
-        <input type="text" id="user_email" name="user[email]">
-      </div>
-      <div class="actions">
-        <input type="submit" name="commit" value="Create User">
-      </div>
-    </form>
-  </body>
-</html> -->
+<?php $this->form_for($user, '/users'); ?>
+  <h1>New User</h1>
+  <?php $this->text_field($user, 'name'); ?>
+  <?php $this->text_field($user, 'email'); ?>
+  <?php $this->password_field($user, 'password'); ?>
+  <fieldset>
+    <legend>Role</legend>
+    <?php $this->checkbox_field($user, 'is_operator'); ?>
+    <?php $this->checkbox_field($user, 'is_specialist'); ?>
+    <?php $this->checkbox_field($user, 'is_admin'); ?>
+  </fieldset>
+  <div class="actions">
+    <?php $this->submit_field('Create User'); ?>
+  </div>
+</form>

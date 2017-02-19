@@ -3,15 +3,15 @@
 class UsersController extends ApplicationController {
 
   public function index() {
-    $this->users = User::all()->results();
+    $this->users = User::where(['is_lboro_admin' => false])->results();
   }
 
   public function new() {
-    $this->user = new User();
+    $this->user = User::new();
   }
 
   public function create() {
-    $this->user = new User($this->user_params());
+    $this->user = User::new($this->user_params());
     if ($this->user->save()) {
       $this->redirect_to('index', ['flash'=>'user created']);
     } else {
@@ -32,10 +32,10 @@ class UsersController extends ApplicationController {
     }
   }
 
-  public function destory() {
-    $this->user = User::find($this->params['id']);
-    $this->user->destroy();
-    $this->redirect_to('index', ['flash'=>'user deleted']);
+  public function destroy() {
+    $user = User::find($this->params['id']);
+    $user->destroy();
+    $this->redirect_to('/users', ['flash'=>'User deleted']);
   }
 
   private function user_params() {

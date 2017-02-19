@@ -1168,3 +1168,145 @@ Begin GET to /users on localhost at Sun, 19 Feb 2017 00:29:11 +0000
 Finish 500 in 45.692ms
 Begin GET to /users on localhost at Sun, 19 Feb 2017 00:29:18 +0000
 Finish 200 in 9.822ms
+Begin GET to / on localhost at Sun, 19 Feb 2017 01:55:08 +0000
+Finish 200 in 27.139ms
+Begin GET to / on localhost at Sun, 19 Feb 2017 01:58:22 +0000
+Finish 200 in 10.141ms
+Begin GET to / on localhost at Sun, 19 Feb 2017 01:59:07 +0000
+Finish 200 in 10.208ms
+Begin GET to / on localhost at Sun, 19 Feb 2017 01:59:19 +0000
+Finish 200 in 7.286ms
+Begin GET to / on localhost at Sun, 19 Feb 2017 04:56:54 +0000
+Finish 200 in 6.923ms
+Begin GET to / on localhost at Sun, 19 Feb 2017 12:41:51 +0000
+Finish 200 in 30.739ms
+Begin GET to / on localhost at Sun, 19 Feb 2017 12:44:27 +0000
+Finish 200 in 9.769ms
+Begin GET to / on localhost at Sun, 19 Feb 2017 12:44:38 +0000
+Finish 200 in 8.51ms
+Begin GET to / on localhost at Sun, 19 Feb 2017 12:45:26 +0000
+Finish 200 in 9.575ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 12:45:51 +0000
+Finish 200 in 5.086ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 12:47:27 +0000
+Finish 200 in 3.312ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 12:48:22 +0000
+Finish 200 in 4.562ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 12:55:25 +0000
+Finish 500 in 9.391ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:00:44 +0000
+Finish 500 in 9.456ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:03:02 +0000
+Finish 500 in 0.927ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:03:59 +0000
+Finish 200 in 3.467ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:05:14 +0000
+Finish 500 in 9.725ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:05:26 +0000
+Finish 200 in 4.37ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:06:29 +0000
+Finish 200 in 3.41ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:07:11 +0000
+Finish 200 in 2.245ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:07:39 +0000
+Finish 200 in 2.89ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:16:09 +0000
+Finish 500 in 6.452ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:16:20 +0000
+Finish 200 in 2.589ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:16:52 +0000
+Finish 200 in 3.658ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:17:22 +0000
+Finish 200 in 2.857ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 13:19:23 +0000
+Finish 200 in 2.159ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:19:40 +0000
+Finish 500 in 43.44ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:21:57 +0000
+Finish 500 in 38.422ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:22:20 +0000
+Finish 500 in 37.004ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:22:30 +0000
+Finish 200 in 7.378ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:23:31 +0000
+Finish 200 in 8.398ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:24:30 +0000
+Finish 200 in 7.26ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:27:50 +0000
+Finish 200 in 7.813ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:31:19 +0000
+Finish 200 in 8.437ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:31:34 +0000
+Finish 200 in 11.079ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 13:35:14 +0000
+Finish 404 in 2.01ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:35:22 +0000
+Finish 404 in 0.51ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:36:23 +0000
+Finish 500 in 0.913ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:36:56 +0000
+Finish 500 in 1.302ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:37:23 +0000
+Finish 500 in 1.518ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:37:40 +0000
+Finish 500 in 1.111ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:39:23 +0000
+Finish 500 in 1.32ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:42:47 +0000
+Finish 500 in 1.408ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:47:31 +0000
+Finish 404 in 0.379ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:52:04 +0000
+Finish 500 in 4.952ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:52:07 +0000
+Finish 200 in 2.049ms
+Begin GET to /users/index on localhost at Sun, 19 Feb 2017 13:52:07 +0000
+Finish 404 in 0.402ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:52:23 +0000
+Finish 200 in 11.331ms
+Begin GET to /users/5 on localhost at Sun, 19 Feb 2017 13:52:26 +0000
+Finish 404 in 2.996ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:52:56 +0000
+Finish 200 in 8.743ms
+Begin GET to /users/5 on localhost at Sun, 19 Feb 2017 13:52:58 +0000
+Finish 404 in 1.95ms
+Begin DELETE to /users/5 on localhost at Sun, 19 Feb 2017 13:53:23 +0000
+Finish 200 in 1.811ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:53:23 +0000
+Finish 200 in 6.171ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:53:25 +0000
+Finish 200 in 9.465ms
+Begin GET to /users/5 on localhost at Sun, 19 Feb 2017 13:53:36 +0000
+Finish 404 in 0.507ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:56:54 +0000
+Finish 200 in 14.873ms
+Begin GET to /users/7 on localhost at Sun, 19 Feb 2017 13:56:56 +0000
+Finish 404 in 0.175ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:57:33 +0000
+Finish 200 in 5.362ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:59:17 +0000
+Finish 200 in 9.022ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:59:23 +0000
+Finish 200 in 11.264ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:59:36 +0000
+Finish 200 in 7.219ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:59:45 +0000
+Finish 200 in 6.524ms
+Begin DELETE to /users/6 on localhost at Sun, 19 Feb 2017 13:59:47 +0000
+Finish 200 in 15.511ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:59:47 +0000
+Finish 200 in 30.983ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 13:59:57 +0000
+Finish 200 in 11.1ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 14:01:08 +0000
+Finish 200 in 6.316ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 14:01:37 +0000
+Finish 200 in 12.372ms
+Begin GET to /users/3/edit on localhost at Sun, 19 Feb 2017 14:01:40 +0000
+Finish 500 in 6.046ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 14:14:36 +0000
+Finish 200 in 2.157ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 14:15:12 +0000
+Finish 200 in 5.23ms
+Begin GET to /users/new on localhost at Sun, 19 Feb 2017 14:24:14 +0000
+Finish 200 in 2.094ms

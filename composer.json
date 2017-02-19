@@ -8,7 +8,6 @@
         }
     ],
     "require": {
-      "hexmodr/chronicle": "dev-master",
       "hexmodr/rack": "dev-master",
       "make_it_all/system": "dev-master"
     },

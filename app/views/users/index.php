@@ -2,7 +2,7 @@
   <div id="page_info">
     <div id="page_title">
       <h1><?php echo $users->count() . ' Users'; ?></h1>
-      <?php $this->link_to('New +', '#'); ?>
+      <?php echo $this->link_to('New +', '/users/new'); ?>
     </div>
     <?php if (isset($facts)): ?>
       <div id="page_stats">
@@ -13,7 +13,7 @@
     <?php endif; ?>
   </div>
   <div id="page_filter">
-    <div id="type_filter">
+    <div class="fitler">
       <h5>Type</h5>
       <a href="#">Hardware <?php $this->icon('desktop'); ?></a>
       <a href="#">Software <?php $this->icon('file-code-o'); ?></a>
@@ -24,21 +24,8 @@
 </div>
 
 <div id="page_body">
-  <div id="pagination">
-    <div id="pagination_links">
-      <a href="#">&laquo;</a>
-      <a href="#">1</a>
-      <a href="#" class="active">2</a>
-      <a href="#">3</a>
-      <a href="#">4</a>
-      <a href="#">5</a>
-      <a href="#">6</a>
-      <a href="#">&raquo;</a>
-    </div>
-    <div id="pagination_results">
-      <p>Showing 1-6 of 136</p>
-    </div>
-  </div>
+  <?php $this->render('pagination', ['records' => $users]); ?>
+
   <table class="index_table">
     <thead>
       <tr>
@@ -61,9 +48,9 @@
           <td><?php echo $user->email; ?></td>
           <td><?php echo $user->last_seen_at; ?></td>
           <td><?php echo implode(', ', $user->roles()); ?></td>
-          <td><?php echo $this->link_to('edit', '/edit'); ?></td>
+          <td><?php echo $this->link_to('edit', "/users/$user->id/edit"); ?></td>
           <?php if ($user->is_admin): ?>
-            <td><?php echo $this->link_to('delete', '/edit'); ?></td>
+            <td><?php echo $this->link_to('delete', "/users/$user->id", 'DELETE'); ?></td>
           <?php endif; ?>
         </tr>
       <?php endforeach; ?>
