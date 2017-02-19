@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -12,4 +12,4 @@
       <input type="submit" name="edit_submit" value="Submit">
     </form>
   </body>
-</html>
+</html> -->

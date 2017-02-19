@@ -1,6 +1,6 @@
 <?php
 
-$r->root('pages#home');
+$r->root('users#index');
 
 $r->resources('calls', ['except'=>['show']]);
 $r->resources('problems', ['except'=>['show']]);
