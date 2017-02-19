@@ -5,9 +5,9 @@ $show_exceptions = true;
 $debug_exceptions = true;
 
 $database = [
-  'driver' => 'mysql',
-  'host' => 'localhost',
+  'driver'   => 'mysql',
+  'host'     => 'localhost',
   'username' => 'root',
   'password' => '',
-  'database' => 'make-it-all',
+  'database' => 'make-it-all'
 ];
