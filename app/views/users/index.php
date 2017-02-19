@@ -14,9 +14,9 @@
   </div>
   <div id="page_filter">
     <div class="fitler">
-      <h5>Type</h5>
-      <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop')); ?>
-      <?php echo $this->link_to($this->i('titles.software') . $this->icon('file-code-o')); ?>
+      <h5><?php echo $this->i('table_headings.type'); ?></h5>
+      <?php echo $this->i('titles.hardware') . $this->icon('desktop'); ?>
+      <?php echo $this->i('titles.software') . $this->icon('file-code-o'); ?>
     </div>
     <?php $this->render('search_form'); ?>
 
@@ -29,13 +29,13 @@
   <table class="index_table">
     <thead>
       <tr>
-        <th> <?php echo $this->i('table_headings.id'); ?></th>
-        <th> <?php echo $this->i('table_headings.name'); ?></th>
-        <th> <?php echo $this->i('table_headings.email'); ?></th>
-        <th> <?php echo $this->i('table_headings.last_seen_at'); ?></th>
-        <th> <?php echo $this->i('table_headings.role'); ?></th>
-        <th> <?php echo $this->i('actions.edit'); ?></th>
-        <th> <?php echo $this->i('actions.delete'); ?></th>
+        <th> <?php $this->i('table_headings.id'); ?></th>
+        <th> <?php $this->i('table_headings.name'); ?></th>
+        <th> <?php $this->i('table_headings.email'); ?></th>
+        <th> <?php $this->i('table_headings.last_seen_at'); ?></th>
+        <th> <?php $this->i('table_headings.role'); ?></th>
+        <th> <?php $this->i('actions.edit'); ?></th>
+        <th> <?php $this->i('actions.delete'); ?></th>
       </tr>
     </thead>
     <tbody>

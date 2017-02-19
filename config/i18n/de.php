@@ -6,9 +6,9 @@ $header = [
 
 $titles = [
   'dashboard'=>'Dashboard',
-  'calls'=>'Calls',
-  'problems'=>'Problems',
-  'personnel'=>'Personnel',
+  'calls'=>'Telefonieren',
+  'problems'=>'Probleme',
+  'personnel'=>'Personal',
   'users'=>'Users',
   'reports'=>'Reports',
   'settings'=>'Settings',
