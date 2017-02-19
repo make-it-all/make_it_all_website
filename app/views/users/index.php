@@ -15,15 +15,21 @@
     <?php endif; ?>
   </div>
   <div id="page_filter">
-    <div class="fitler">
-      <h5><?php echo $this->i('table_headings.type'); ?></h5>
-      <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop'),'#'); ?>
-      <?php echo $this->link_to($this->i('titles.software') . $this->icon('file-code-o'),'#'); ?>
+    <div class="filter">
+      <h3><?php echo $this->i('table_headings.type'); ?></h3>
+      <div class="filter_button">
+        <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop'),'#'); ?>
+      </div>
+      <div class="filter_button">
+        <?php echo $this->link_to($this->i('titles.software') . $this->icon('file-code-o'),'#'); ?>
+      </div>
     </div>
-    <?php $this->render('search_form'); ?>
+    <div class="search_bar">
+      <?php $this->render('search_form'); ?>
+    </div>
+  </div>
 
   </div>
-</div>
 
 <div id="page_body">
   <?php $this->render('pagination', ['records' => $users]); ?>
