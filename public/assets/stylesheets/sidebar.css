@@ -3,26 +3,22 @@
   background: #333;
   text-align: right;
   color: white;
-  padding: 15px;
+  padding: 0px 15px;
+  min-height: calc( 100vh - 50px );
 }
 
 #side_bar section {
-  padding: 10px 15px
+  padding: 0px 15px
 }
 #side_bar section + section {
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 #side_bar a {
   color: white;
   line-height: 30px;
+  margin: 10px 0px;
   display: block;
-}
-
-#side_bar h4 {
-  color: white;
-  opacity: 0.5;
-  line-height: 5px;
 }
 
 div#language_selector {

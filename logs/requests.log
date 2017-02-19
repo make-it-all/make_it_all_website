@@ -1418,3 +1418,333 @@ Begin GET to /users on localhost at Sun, 19 Feb 2017 17:32:36 +0000
 Finish 200 in 9.335ms
 Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:32:36 +0000
 Finish 404 in 0.516ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:33:58 +0000
+Finish 200 in 12.488ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:33:59 +0000
+Finish 404 in 0.895ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:35:03 +0000
+Finish 500 in 23.144ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:35:04 +0000
+Finish 404 in 0.349ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:35:28 +0000
+Finish 404 in 25.772ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:35:56 +0000
+Finish 404 in 0.364ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:36:22 +0000
+Finish 404 in 0.319ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:36:23 +0000
+Finish 404 in 0.296ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:36:29 +0000
+Finish 404 in 0.28ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:37:20 +0000
+Finish 200 in 12.043ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:37:20 +0000
+Finish 404 in 0.36ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:37:39 +0000
+Finish 200 in 14.97ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:37:40 +0000
+Finish 404 in 0.488ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:37:49 +0000
+Finish 200 in 12.141ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:37:49 +0000
+Finish 404 in 0.304ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:38:29 +0000
+Finish 200 in 9.896ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:38:29 +0000
+Finish 404 in 0.699ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:38:32 +0000
+Finish 200 in 8.471ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:38:33 +0000
+Finish 404 in 0.384ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:40:06 +0000
+Finish 200 in 7.795ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:40:10 +0000
+Finish 200 in 13.48ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:40:25 +0000
+Finish 404 in 0.477ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:41:22 +0000
+Finish 200 in 13.321ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:52:13 +0000
+Finish 200 in 104.806ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:52:14 +0000
+Finish 404 in 16.578ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:57:05 +0000
+Finish 200 in 8.693ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:57:13 +0000
+Finish 200 in 15.014ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 17:57:14 +0000
+Finish 404 in 0.322ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 17:57:15 +0000
+Finish 200 in 10.808ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:01:53 +0000
+Finish 200 in 7.369ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:01:54 +0000
+Finish 404 in 0.634ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:02:31 +0000
+Finish 200 in 10.191ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:02:31 +0000
+Finish 404 in 27.927ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:02:33 +0000
+Finish 200 in 10.752ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:02:33 +0000
+Finish 404 in 0.304ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:03:15 +0000
+Finish 500 in 3.803ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:03:26 +0000
+Finish 500 in 3.531ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:03:30 +0000
+Finish 200 in 35.133ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:04:10 +0000
+Finish 200 in 9.568ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:04:17 +0000
+Finish 200 in 10.167ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:04:43 +0000
+Finish 200 in 8.902ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:05:21 +0000
+Finish 200 in 11.857ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:05:28 +0000
+Finish 200 in 44.293ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:05:47 +0000
+Finish 200 in 14.73ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:06:12 +0000
+Finish 500 in 1.932ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:06:19 +0000
+Finish 500 in 3.136ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:06:40 +0000
+Finish 500 in 2.824ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:07:43 +0000
+Finish 200 in 7.839ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:11:13 +0000
+Finish 404 in 5.342ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:11:25 +0000
+Finish 200 in 14.064ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:11:25 +0000
+Finish 404 in 0.513ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:12:13 +0000
+Finish 200 in 14.126ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:12:13 +0000
+Finish 404 in 0.426ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:13:46 +0000
+Finish 200 in 9.036ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:13:47 +0000
+Finish 404 in 0.563ms
+Begin GET to /problems/new on localhost at Sun, 19 Feb 2017 18:13:51 +0000
+Finish 200 in 21.196ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:13:53 +0000
+Finish 200 in 0.713ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:14:35 +0000
+Finish 200 in 1.91ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:14:35 +0000
+Finish 404 in 0.237ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:18:04 +0000
+Finish 200 in 5.802ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:18:04 +0000
+Finish 404 in 0.433ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:19:58 +0000
+Finish 200 in 0.706ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:19:59 +0000
+Finish 404 in 3.579ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:20:35 +0000
+Finish 200 in 1.796ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:20:36 +0000
+Finish 404 in 0.315ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:20:55 +0000
+Finish 200 in 1.34ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:20:55 +0000
+Finish 404 in 0.289ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:21:47 +0000
+Finish 200 in 1.26ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:21:48 +0000
+Finish 404 in 0.269ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:22:05 +0000
+Finish 200 in 2.398ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:22:05 +0000
+Finish 404 in 0.247ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:22:32 +0000
+Finish 200 in 3.984ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:22:32 +0000
+Finish 404 in 0.248ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:22:37 +0000
+Finish 200 in 1.349ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:22:37 +0000
+Finish 404 in 1.315ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:22:44 +0000
+Finish 200 in 0.918ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:22:44 +0000
+Finish 404 in 0.35ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:23:19 +0000
+Finish 200 in 1.23ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:23:19 +0000
+Finish 404 in 0.439ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:23:38 +0000
+Finish 200 in 1.167ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:23:40 +0000
+Finish 404 in 0.894ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:24:03 +0000
+Finish 200 in 4.976ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:24:04 +0000
+Finish 404 in 5.317ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:25:24 +0000
+Finish 200 in 1.067ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:25:25 +0000
+Finish 404 in 0.246ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:25:34 +0000
+Finish 200 in 0.643ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:25:34 +0000
+Finish 404 in 0.378ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:25:43 +0000
+Finish 200 in 0.718ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:25:44 +0000
+Finish 404 in 0.84ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:26:01 +0000
+Finish 200 in 0.708ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:26:01 +0000
+Finish 404 in 0.334ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:26:08 +0000
+Finish 200 in 0.971ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:26:08 +0000
+Finish 404 in 2.945ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:26:09 +0000
+Finish 200 in 1.717ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:26:10 +0000
+Finish 404 in 0.201ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:26:58 +0000
+Finish 200 in 3.33ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:27:01 +0000
+Finish 200 in 0.741ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:27:04 +0000
+Finish 404 in 0.685ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:27:17 +0000
+Finish 200 in 0.576ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:27:17 +0000
+Finish 404 in 0.594ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:27:39 +0000
+Finish 200 in 1.017ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:27:40 +0000
+Finish 404 in 0.339ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:28:19 +0000
+Finish 200 in 0.666ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:28:20 +0000
+Finish 404 in 0.47ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:28:28 +0000
+Finish 200 in 4.72ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:28:30 +0000
+Finish 404 in 0.482ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:29:00 +0000
+Finish 200 in 4.283ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:29:00 +0000
+Finish 404 in 0.339ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:29:06 +0000
+Finish 200 in 0.739ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:29:07 +0000
+Finish 404 in 0.321ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:29:12 +0000
+Finish 200 in 0.976ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:29:12 +0000
+Finish 404 in 3.993ms
+Begin GET to /calls on localhost at Sun, 19 Feb 2017 18:29:21 +0000
+Finish 200 in 0.656ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:29:23 +0000
+Finish 200 in 0.772ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:29:42 +0000
+Finish 200 in 14.658ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:29:44 +0000
+Finish 404 in 0.384ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:30:07 +0000
+Finish 200 in 1.115ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:30:07 +0000
+Finish 404 in 0.266ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:30:15 +0000
+Finish 200 in 0.756ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:30:16 +0000
+Finish 404 in 0.339ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:30:19 +0000
+Finish 200 in 1.172ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:30:20 +0000
+Finish 200 in 13.581ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:30:35 +0000
+Finish 200 in 13.806ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:31:02 +0000
+Finish 200 in 11.087ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:31:03 +0000
+Finish 404 in 3.325ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:34:24 +0000
+Finish 404 in 0.65ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:35:20 +0000
+Finish 200 in 8.347ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:35:20 +0000
+Finish 404 in 0.601ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:35:56 +0000
+Finish 200 in 8.477ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:35:57 +0000
+Finish 404 in 0.389ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:36:46 +0000
+Finish 200 in 10.136ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:36:46 +0000
+Finish 404 in 0.246ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:36:58 +0000
+Finish 200 in 7.008ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:36:58 +0000
+Finish 404 in 0.31ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:37:24 +0000
+Finish 200 in 9.642ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:37:25 +0000
+Finish 404 in 0.324ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:37:35 +0000
+Finish 200 in 27.958ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:37:36 +0000
+Finish 404 in 0.301ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:39:26 +0000
+Finish 404 in 3.426ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:39:32 +0000
+Finish 404 in 0.213ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:39:42 +0000
+Finish 200 in 8.689ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:39:42 +0000
+Finish 404 in 0.393ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:42:14 +0000
+Finish 200 in 15.304ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:42:15 +0000
+Finish 404 in 0.425ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:42:28 +0000
+Finish 200 in 14.217ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:42:28 +0000
+Finish 404 in 0.267ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:43:28 +0000
+Finish 200 in 30.037ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:43:28 +0000
+Finish 404 in 0.257ms
+Begin GET to /personnel on localhost at Sun, 19 Feb 2017 18:47:22 +0000
+Finish 200 in 1.578ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:48:11 +0000
+Finish 200 in 0.941ms
+Begin GET to /problems on localhost at Sun, 19 Feb 2017 18:49:56 +0000
+Finish 200 in 4.458ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:49:56 +0000
+Finish 404 in 0.376ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:51:13 +0000
+Finish 200 in 50.461ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:51:14 +0000
+Finish 404 in 2.328ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:51:25 +0000
+Finish 200 in 9.696ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:51:26 +0000
+Finish 404 in 0.393ms
+Begin GET to /personnel on localhost at Sun, 19 Feb 2017 18:51:32 +0000
+Finish 200 in 0.552ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:51:36 +0000
+Finish 200 in 36.417ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:52:08 +0000
+Finish 200 in 16.83ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:52:08 +0000
+Finish 404 in 0.396ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:52:22 +0000
+Finish 404 in 0.404ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:52:38 +0000
+Finish 200 in 20.889ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:52:39 +0000
+Finish 404 in 0.409ms
+Begin GET to /users on localhost at Sun, 19 Feb 2017 18:52:55 +0000
+Finish 200 in 13.155ms
+Begin GET to /favicon.ico on localhost at Sun, 19 Feb 2017 18:52:55 +0000
+Finish 404 in 0.337ms
