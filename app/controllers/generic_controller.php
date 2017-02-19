@@ -1,40 +1,42 @@
 <?php
 
-class UsersController extends ApplicationController {
+class GenericController extends ApplicationController {
 
   public function index() {
-    $this->users = User::all()->results();
+    if ($this->params['q']) {
+      $users = User::where($this->params['q']);
+    } else {
+      $users = User::all();
+    }
   }
-
+  public function show() {
+    $user = User::find($this->params['id']);
+  }
   public function new() {
-    $this->user = new User();
+    $user = new User();
   }
-
   public function create() {
-    $this->user = new User($this->user_params());
-    if ($this->user->save()) {
+    $user = new User($this->user_params());
+    if ($user->save()) {
       $this->redirect_to('index', ['flash'=>'user created']);
     } else {
       $this->render('new');
     }
   }
-
   public function edit() {
-    $this->user = User::find($this->params['id']);
+    $user = User::find($this->params['id']);
   }
-
   public function update() {
-    $this->user = User::find($this->params['id']);
-    if ($this->user->update($this->user_params())) {
+    $user = User::find($this->params['id']);
+    if ($user->update($this->user_params())) {
       $this->redirect_to('index', ['flash'=>'user updated']);
     } else {
       $this->render('edit');
     }
   }
-
   public function destory() {
-    $this->user = User::find($this->params['id']);
-    $this->user->destroy();
+    $user = User::find($this->params['id']);
+    $user->destroy();
     $this->redirect_to('index', ['flash'=>'user deleted']);
   }
 
