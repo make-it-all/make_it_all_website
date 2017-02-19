@@ -4,7 +4,7 @@
             <div id="page_info">
                 <h1>136 Calls</h1>
                 <div id="page_actions">
-                    <a href="#">New+</a>
+                    <a href="calls/new/">New+</a>
                 </div>
                 <p><i>29 problems have been solved since last log on</i></p>
                 <p>
