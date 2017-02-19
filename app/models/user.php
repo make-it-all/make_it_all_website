@@ -6,6 +6,12 @@ class User extends Chronicle\Base {
 
   public static $table_name = 'users';
 
+  public static function new($attrs=[]) {
+    $record = parent::new($attrs);
+    $record->add_attribute('password');
+    return $record;
+  }
+
   public function personnel() {
     return Personnel::find_by(['id' => $this->personnel_id]);
   }
@@ -27,10 +33,6 @@ class User extends Chronicle\Base {
       }
     }
     return $roles;
-  }
-
-  public function get_is_admin() {
-    return $this->attribute_methods['get_is_admin']() || $this->is_lboro_admin;
   }
 
 }
