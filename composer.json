@@ -9,6 +9,7 @@
     ],
     "require": {
       "hexmodr/rack": "dev-master",
+      "hexmodr/chronicle": "dev-master",
       "make_it_all/system": "dev-master"
     },
     "repositories": [{
