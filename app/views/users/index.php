@@ -2,7 +2,9 @@
   <div id="page_info">
     <div id="page_title">
       <h1><?php echo $users->count() . ' ' . $this->i('titles.users'); ?></h1>
-      <?php echo $this->link_to($this->i('actions.new'), '/users/new'); ?>
+      <div id="page_actions">
+        <?php echo $this->link_to($this->i('actions.new'), '/users/new'); ?>
+      </div>
     </div>
     <?php if (isset($facts)): ?>
       <div id="page_stats">
@@ -29,13 +31,13 @@
   <table class="index_table">
     <thead>
       <tr>
-        <th> <?php $this->i('table_headings.id'); ?></th>
-        <th> <?php $this->i('table_headings.name'); ?></th>
-        <th> <?php $this->i('table_headings.email'); ?></th>
-        <th> <?php $this->i('table_headings.last_seen_at'); ?></th>
-        <th> <?php $this->i('table_headings.role'); ?></th>
-        <th> <?php $this->i('actions.edit'); ?></th>
-        <th> <?php $this->i('actions.delete'); ?></th>
+        <th> <?php echo $this->i('table_headings.id'); ?></th>
+        <th> <?php echo $this->i('table_headings.name'); ?></th>
+        <th> <?php echo $this->i('table_headings.email'); ?></th>
+        <th> <?php echo $this->i('table_headings.last_seen_at'); ?></th>
+        <th> <?php echo $this->i('table_headings.role'); ?></th>
+        <th> <?php echo $this->i('actions.edit'); ?></th>
+        <th> <?php echo $this->i('actions.delete'); ?></th>
       </tr>
     </thead>
     <tbody>

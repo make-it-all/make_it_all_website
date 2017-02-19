@@ -44,4 +44,8 @@ $table_headings = [
   'last_seen_at'=>'Last Seen At',
   'role'=>'Role',
   'type'=>'Type',
+  'operator_id'=>'Operator ID',
+  'caller_id'=>'Caller ID',
+  'updated_by'=>'Updated By',
+  'updated_at'=>'Updated At',
 ];
