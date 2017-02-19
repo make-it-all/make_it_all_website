@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "80c603482c036fc90dacc00d4e423643",
     "content-hash": "0f3e9ab4de11015e21e7e49534a552d7",
     "packages": [
         {
@@ -12,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/chronicle.git",
-                "reference": "8973d3902eb6e9cc381685ecc5259209830afba7"
+                "reference": "99bd619fdf8d18900c94bce1277e74a304690e17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/8973d3902eb6e9cc381685ecc5259209830afba7",
-                "reference": "8973d3902eb6e9cc381685ecc5259209830afba7",
+                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/99bd619fdf8d18900c94bce1277e74a304690e17",
+                "reference": "99bd619fdf8d18900c94bce1277e74a304690e17",
                 "shasum": ""
             },
             "type": "library",
@@ -42,7 +43,7 @@
                 "source": "https://github.com/make-it-all/chronicle/tree/master",
                 "issues": "https://github.com/make-it-all/chronicle/issues"
             },
-            "time": "2017-02-19 18:59:38"
+            "time": "2017-02-19 20:40:29"
         },
         {
             "name": "hexmodr/rack",

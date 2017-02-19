@@ -3,6 +3,6 @@
     <?php echo $this->image_tag('logo'); ?>
   </div>
   <div id="session_info">
-    <p>Signed in as <b>Alice Help</b> - <a href="#">Log out</a></p>
+    <p> <?php $this->i('header.signed_in_message') ?><a href="#">Log out</a></p>
   </div>
 </header>

@@ -1,5 +1,9 @@
 <?php
 
+$header = [
+  'signed_in_message'=>'Signed in as <b>Alice Help</b> - ',
+];
+
 $titles = [
   'dashboard'=>'Dashboard',
   'calls'=>'Calls',
@@ -10,6 +14,7 @@ $titles = [
   'settings'=>'Settings',
   'hardware'=>'Hardware',
   'software'=>'Software',
+  'title'=>'Make It All',
   ];
 
 $actions = [
@@ -17,6 +22,7 @@ $actions = [
   'all'=>'All',
   'edit'=>'Edit',
   'delete'=>'Delete',
+  'search'=>'Search',
 ];
 
 $roles = [
@@ -32,4 +38,5 @@ $table_headings = [
   'email'=>'Email',
   'last_seen_at'=>'Last Seen At',
   'role'=>'Role',
+  'type'=>'Type',
 ];
