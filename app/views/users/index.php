@@ -15,8 +15,8 @@
   <div id="page_filter">
     <div class="fitler">
       <h5><?php echo $this->i('table_headings.type'); ?></h5>
-      <?php echo $this->i('titles.hardware') . $this->icon('desktop'); ?>
-      <?php echo $this->i('titles.software') . $this->icon('file-code-o'); ?>
+      <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop'),'#'); ?>
+      <?php echo $this->link_to($this->i('titles.software') . $this->icon('file-code-o'),'#'); ?>
     </div>
     <?php $this->render('search_form'); ?>
 

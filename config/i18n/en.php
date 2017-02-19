@@ -2,6 +2,11 @@
 
 $header = [
   'signed_in_message'=>'Signed in as <b>Alice Help</b> - ',
+  'logout'=>'Log Out',
+];
+
+$pagination = [
+  'showing_text'=>'Showing 1-6 of 136',
 ];
 
 $titles = [
