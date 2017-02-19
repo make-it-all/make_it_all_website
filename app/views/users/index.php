@@ -14,20 +14,6 @@
       </div>
     <?php endif; ?>
   </div>
-  <div id="page_filter">
-    <div class="filter">
-      <h3><?php echo $this->i('table_headings.type'); ?></h3>
-      <div class="filter_button">
-        <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop'),'#'); ?>
-      </div>
-      <div class="filter_button">
-        <?php echo $this->link_to($this->i('titles.software') . $this->icon('file-code-o'),'#'); ?>
-      </div>
-    </div>
-    <div class="search_bar">
-      <?php $this->render('search_form'); ?>
-    </div>
-  </div>
 </div>
 
 <div id="page_body">
