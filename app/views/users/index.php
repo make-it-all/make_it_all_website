@@ -14,7 +14,26 @@
       </div>
     <?php endif; ?>
   </div>
+<<<<<<< HEAD
 </div>
+=======
+  <div id="page_filter">
+    <div class="filter">
+      <h3><?php echo $this->i('table_headings.type'); ?></h3>
+      <div class="filter_button">
+        <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop'),'#'); ?>
+      </div>
+      <div class="filter_button">
+        <?php echo $this->link_to($this->i('titles.software') . $this->icon('file-code-o'),'#'); ?>
+      </div>
+    </div>
+    <div class="search_bar">
+      <?php $this->render('search_form'); ?>
+    </div>
+  </div>
+
+  </div>
+>>>>>>> d329164fe31d39f9b8276f519479c27c1d02e3f8
 
 <div id="page_body">
   <?php $this->render('pagination', ['records' => $users]); ?>
