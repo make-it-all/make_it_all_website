@@ -14,9 +14,6 @@
       </div>
     <?php endif; ?>
   </div>
-<<<<<<< HEAD
-</div>
-=======
   <div id="page_filter">
     <div class="filter">
       <h3><?php echo $this->i('table_headings.type'); ?></h3>
@@ -31,9 +28,7 @@
       <?php $this->render('search_form'); ?>
     </div>
   </div>
-
-  </div>
->>>>>>> d329164fe31d39f9b8276f519479c27c1d02e3f8
+</div>
 
 <div id="page_body">
   <?php $this->render('pagination', ['records' => $users]); ?>
