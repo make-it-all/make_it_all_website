@@ -14,15 +14,6 @@
       </div>
     <?php endif; ?>
   </div>
-  <div id="page_filter">
-    <div class="fitler">
-      <h5><?php echo $this->i('table_headings.type'); ?></h5>
-      <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop'),'#'); ?>
-      <?php echo $this->link_to($this->i('titles.software') . $this->icon('file-code-o'),'#'); ?>
-    </div>
-    <?php $this->render('search_form'); ?>
-
-  </div>
 </div>
 
 <div id="page_body">
@@ -51,9 +42,7 @@
           <td><?php echo $user->last_seen_at; ?></td>
           <td><?php echo implode(', ', $user->roles()); ?></td>
           <td><?php echo $this->link_to('edit', "/users/$user->id/edit"); ?></td>
-          <?php if ($user->is_admin): ?>
             <td><?php echo $this->link_to('delete', "/users/$user->id", 'DELETE'); ?></td>
-          <?php endif; ?>
         </tr>
       <?php endforeach; ?>
     </tbody>

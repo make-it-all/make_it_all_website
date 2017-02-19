@@ -3,7 +3,7 @@
 class PersonnelController extends ApplicationController {
 
   public function index() {
-    $this->personnel = Personnel::all()->results();
+    $this->personnels = Personnel::all()->results();
   }
 
   public function new() {

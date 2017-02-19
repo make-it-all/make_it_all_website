@@ -48,4 +48,12 @@ $table_headings = [
   'caller_id'=>'Caller ID',
   'updated_by'=>'Updated By',
   'updated_at'=>'Updated At',
+  'job_title'=>'Job Title',
+  'branch_id'=>'Branch',
+  'department_id'=>'Department',
+  'telephone_number'=>'Phone Number',
+  'specialization'=>'Specialization',
+  'submitted_by'=>'Submitted By',
+  'assigned_to'=>'Assigned To',
+  'solution_id'=>'Solution',
 ];
