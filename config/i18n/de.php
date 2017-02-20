@@ -1,7 +1,12 @@
 <?php
 
 $header = [
-  'signed_in_message'=>'Signed in as <b>Alice Help</b> - ',
+  'signed_in_message'=>'Als <b>Alice Help</b> angemeldet - ',
+  'logout'=>'Ausloggen',
+];
+
+$pagination = [
+  'showing_text'=>'Showing 1-6 of 136',
 ];
 
 $titles = [
@@ -9,34 +14,46 @@ $titles = [
   'calls'=>'Telefonieren',
   'problems'=>'Probleme',
   'personnel'=>'Personal',
-  'users'=>'Users',
-  'reports'=>'Reports',
-  'settings'=>'Settings',
+  'users'=>'Benutzer',
+  'reports'=>'Berichte',
+  'settings'=>'Einstellungen',
   'hardware'=>'Hardware',
   'software'=>'Software',
-  'title'=>'Make It All',
+  'title'=>'Alles Macher',
   ];
 
 $actions = [
-  'new'=>'New',
-  'all'=>'All',
-  'edit'=>'Edit',
-  'delete'=>'Delete',
-  'search'=>'Search',
+  'new'=>'Neu',
+  'all'=>'Alle',
+  'edit'=>'Bearbeiten',
+  'delete'=>'Löschen',
+  'search'=>'Suche',
 ];
 
 $roles = [
-  'admin'=>'Admin',
+  'admin'=>'Administrator',
   'operator'=>'Operator',
-  'specialist'=>'Specialist',
-  'lboroadmin'=>'Lboro Admin',
+  'specialist'=>'Spezialist',
+  'lboroadmin'=>'Lboro Administrator',
 ];
 
 $table_headings = [
   'id'=>'ID',
   'name'=>'Name',
   'email'=>'Email',
-  'last_seen_at'=>'Last Seen At',
-  'role'=>'Role',
-  'type'=>'Type',
+  'last_seen_at'=>'Zuletzt gesehen bei',
+  'role'=>'Arbeit',
+  'type'=>'Art',
+  'operator_id'=>'Operator ID',
+  'caller_id'=>'Anrufer ID',
+  'updated_by'=>'Aktualisiert von',
+  'updated_at'=>'Aktualisiert am',
+  'job_title'=>'Berufsbezeichnung',
+  'branch_id'=>'Niederlassung',
+  'department_id'=>'Abteilung',
+  'telephone_number'=>'Telefonnummer',
+  'specialization'=>'Spezialisierung',
+  'submitted_by'=>'Eingereicht von',
+  'assigned_to'=>'Zugewiesen an',
+  'solution_id'=>'Lösung',
 ];

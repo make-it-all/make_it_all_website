@@ -22,7 +22,7 @@
 </div>
 
 <div id="page_body">
-  <?php $this->render('pagination', ['records' => $users]); ?>
+  <?php $this->render('pagination', ['records' => $users, 'offset' => $offset]); ?>
 
   <table class="index_table">
     <thead>
