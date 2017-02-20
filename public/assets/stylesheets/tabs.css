@@ -129,6 +129,17 @@
     border-radius: 3px;
     border: 0; }
 
+    .actions input[name=cancel] {
+      background: #FF0000;
+      -webkit-appearance: none;
+      display: inline-block;
+      height: 40px;
+      padding: 0 15px;
+      line-height: 40px;
+      color: white;
+      border-radius: 3px;
+      border: 0; }
+
 form.with_panels {
   display: -webkit-box;
   display: -webkit-flex;

@@ -1,6 +1,6 @@
 <?php
 
-class HardwareType extends Chronicle\Base {
+class HardwareType extends ApplicationModel {
 
   public static $table_name = 'hardware_types';
 

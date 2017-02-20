@@ -1,6 +1,6 @@
 <?php
 
-class ProblemTagging extends Chronicle\Base {
+class ProblemTagging extends ApplicationModel {
 
   public static $table_name = 'problem_tagging';
 
