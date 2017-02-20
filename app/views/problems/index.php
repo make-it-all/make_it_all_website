@@ -16,7 +16,7 @@
   </div>
   <div id="page_filter">
     <div class="filter">
-      <h5><?php echo $this->i('table_headings.type'); ?></h5>
+      <h4><?php echo $this->i('table_headings.type'); ?></h4>
       <div class="filter_button">
         <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop'),'#'); ?>
       </div>
