@@ -1,4 +1,4 @@
-<?php $this->form_for($user, '/users', ['class'=>'with_panels']); ?>
+<?php $this->form_for($user, '/users/new', ['class'=>'with_panels']); ?>
 
   <?php if ($user->errors()->any()): ?>
     <ul>
