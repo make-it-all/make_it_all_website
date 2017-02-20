@@ -1,7 +1,13 @@
 <div id="pagination">
   <div id="pagination_links">
-    <?php for ($i=0; $i < (intdiv($records->class::count() , 10)+1); $i++) {
-      echo $this->link_to($i+1, Application::$request->path.'?page=' . ($i+1));
+    <?php if (($records->class::count() % 10) == 0) {
+      for ($i=0; $i < ($records->class::count() % 10)+1; $i++) {
+        echo $this->link_to($i+1, Application::$request->path.'?page=' . ($i+1));
+      }
+    } else{
+      for ($i=0; $i < (intdiv($records->class::count() , 10)+1); $i++) {
+        echo $this->link_to($i+1, Application::$request->path.'?page=' . ($i+1));
+      }
     } ?>
   </div>
   <div id="pagination_results">
