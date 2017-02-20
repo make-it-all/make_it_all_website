@@ -28,9 +28,9 @@ class Problem extends Chronicle\Base {
     'worked_on' => ['presence'=>true, 'numericality'=>true, 'length'=>['equal',1], 'inclusion'=>['0','1']],
     'solution_id' => ['numericality'=>true, 'length'=>['max',11]],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'updated_at' => ['format'=>true],
+    'updated_at' => ['presence'=>true, 'format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'created_at' => ['format'=>true]
+    'created_at' => ['presence'=>true, 'format'=>true]
 
   ];
 
