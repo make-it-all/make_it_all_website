@@ -31,7 +31,7 @@
 </div>
 
 <div id="page_body">
-  <?php $this->render('pagination', ['records' => $problems]); ?>
+  <?php $this->render('pagination', ['records' => $problems, 'offset' => $offset]); ?>
 
   <table class="index_table">
     <thead>

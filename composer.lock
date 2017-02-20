@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/chronicle.git",
-                "reference": "13db80edad7fbef7482e37107824ed40f4f9653e"
+                "reference": "0be0335115d23a31e91d72c70c12c9b2a8329af0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/13db80edad7fbef7482e37107824ed40f4f9653e",
-                "reference": "13db80edad7fbef7482e37107824ed40f4f9653e",
+                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/0be0335115d23a31e91d72c70c12c9b2a8329af0",
+                "reference": "0be0335115d23a31e91d72c70c12c9b2a8329af0",
                 "shasum": ""
             },
             "type": "library",
@@ -43,7 +43,7 @@
                 "source": "https://github.com/make-it-all/chronicle/tree/master",
                 "issues": "https://github.com/make-it-all/chronicle/issues"
             },
-            "time": "2017-02-20 00:46:49"
+            "time": "2017-02-20 02:21:30"
         },
         {
             "name": "hexmodr/rack",
@@ -87,12 +87,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/system.git",
-                "reference": "ce7449c3be35b5ff67b34a9460b92f84ce204d93"
+                "reference": "ed01e1e41c7ca257720d25c3573f551b89152107"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/system/zipball/ce7449c3be35b5ff67b34a9460b92f84ce204d93",
-                "reference": "ce7449c3be35b5ff67b34a9460b92f84ce204d93",
+                "url": "https://api.github.com/repos/make-it-all/system/zipball/ed01e1e41c7ca257720d25c3573f551b89152107",
+                "reference": "ed01e1e41c7ca257720d25c3573f551b89152107",
                 "shasum": ""
             },
             "require": {
@@ -107,8 +107,8 @@
                 ],
                 "psr-4": {
                     "Middleware\\": "src/Middleware",
-                    "Application\\": "src/Application",
-                    "Application\\Error\\": "src/Error"
+                    "Application\\Error\\": "src/Error",
+                    "Application\\": "src/Application"
                 }
             },
             "authors": [
@@ -121,7 +121,7 @@
                 "source": "https://github.com/make-it-all/system/tree/master",
                 "issues": "https://github.com/make-it-all/system/issues"
             },
-            "time": "2017-02-19 22:53:34"
+            "time": "2017-02-20 02:19:56"
         }
     ],
     "packages-dev": [],

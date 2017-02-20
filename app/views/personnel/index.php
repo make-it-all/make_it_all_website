@@ -1,7 +1,7 @@
 <div id="page_head">
   <div id="page_info">
     <div id="page_title">
-      <h1><?php echo $personnels->count() . ' ' . $this->i('titles.personnel'); ?></h1>
+      <h1><?php echo Personnel::count() . ' ' . $this->i('titles.personnel'); ?></h1>
       <div id="page_actions">
         <?php echo $this->link_to($this->i('actions.new'), '/personnel/new'); ?>
       </div>
@@ -21,8 +21,9 @@
   </div>
 </div>
 
+
 <div id="page_body">
-  <?php $this->render('pagination', ['records' => $personnels]); ?>
+  <?php $this->render('pagination', ['records' => $personnels, 'offset' => $offset]); ?>
 
   <table class="index_table">
     <thead>

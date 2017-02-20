@@ -1,15 +1,15 @@
 <div id="pagination">
   <div id="pagination_links">
-    <a href="#">&laquo;</a>
-    <a href="#">1</a>
-    <a href="#" class="active">2</a>
-    <a href="#">3</a>
-    <a href="#">4</a>
-    <a href="#">5</a>
-    <a href="#">6</a>
-    <a href="#">&raquo;</a>
+    <?php for ($i=0; $i < (intdiv($records->class::count() , 10)+1); $i++) {
+      echo $this->link_to($i+1, Application::$request->path.'?page=' . ($i+1));
+    } ?>
   </div>
   <div id="pagination_results">
-    <p><?php echo $this->i('pagination.showing_text'); ?></p>
+    <p>Showing <?php echo $offset+1 ?>-<?php
+    if ($offset+10>$records->class::count()) {
+      echo $records->class::count();
+    }else {
+      echo $offset+10;
+    } ?> of <?php echo$records->class::count(); ?></p>
   </div>
 </div>
