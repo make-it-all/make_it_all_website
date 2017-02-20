@@ -1,8 +1,8 @@
 <?php
 
-class Departments extends Chronicle\Base {
+class LanguageUser extends Chronicle\Base {
 
-  public static $table_name = 'departments';
+  public static $table_name = 'language_users';
 
   public static $validations = [
     'id' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]], 'uniqueness'=>true],

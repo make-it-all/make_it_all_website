@@ -1,12 +1,12 @@
 <?php
 
-class SpecializationUsers extends Chronicle\Base {
+class LanguagePersonnel extends Chronicle\Base {
 
-  public static $table_name = 'specialization_users';
+  public static $table_name = 'language_personnel';
 
   public static $validations = [
+    'id' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]], 'uniqueness'=>true],
     'name' => ['presence'=>true, 'length'=>['max',255]],
-    'address_id' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11], 'uniqueness'=>true],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'updated_at' => ['format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
