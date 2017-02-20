@@ -4,6 +4,8 @@ class Problem extends Chronicle\Base {
 
   public static $table_name = 'problems';
 
+<<<<<<< HEAD
+=======
   public function specialization() {
     return Specialization::find($this->specialization_id);
   }
@@ -12,10 +14,13 @@ class Problem extends Chronicle\Base {
     return User::find($this->get_attribute('assigned_to')->get());
   }
 
+>>>>>>> 8a5a6dd4b8457744cfd9ba6e5a44fa7126294614
   public function get_submitted_by() {
     return User::find($this->get_attribute('submitted_by')->get());
   }
 
+<<<<<<< HEAD
+=======
   public static $validations = [
     'hardware_id' => ['numericality'=>true, 'length'=>['max',11]],
     'software_id' => ['numericality'=>true, 'length'=>['max',11]],
@@ -31,4 +36,5 @@ class Problem extends Chronicle\Base {
 
   ];
 
+>>>>>>> 8a5a6dd4b8457744cfd9ba6e5a44fa7126294614
 }
