@@ -34,11 +34,6 @@ class User extends Chronicle\Base {
     return $record;
   }
 
-
-  public static $validations = [
-    'name' => ['presence' => true]
-  ];
-
   public function before_validation() {
     if ($this->password !== null) {
       $this->password_digest = $this->hash_password($this->password);
