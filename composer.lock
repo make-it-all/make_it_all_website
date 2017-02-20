@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/chronicle.git",
-                "reference": "0be0335115d23a31e91d72c70c12c9b2a8329af0"
+                "reference": "186c7c3a6e533c05810588ca4cf909ed4464191b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/0be0335115d23a31e91d72c70c12c9b2a8329af0",
-                "reference": "0be0335115d23a31e91d72c70c12c9b2a8329af0",
+                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/186c7c3a6e533c05810588ca4cf909ed4464191b",
+                "reference": "186c7c3a6e533c05810588ca4cf909ed4464191b",
                 "shasum": ""
             },
             "type": "library",
@@ -43,7 +43,7 @@
                 "source": "https://github.com/make-it-all/chronicle/tree/master",
                 "issues": "https://github.com/make-it-all/chronicle/issues"
             },
-            "time": "2017-02-20 02:21:30"
+            "time": "2017-02-20 02:56:32"
         },
         {
             "name": "hexmodr/rack",
@@ -87,12 +87,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/system.git",
-                "reference": "ed01e1e41c7ca257720d25c3573f551b89152107"
+                "reference": "fb61db047ab7c19e7d41fc590aefb4e16c82c71e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/system/zipball/ed01e1e41c7ca257720d25c3573f551b89152107",
-                "reference": "ed01e1e41c7ca257720d25c3573f551b89152107",
+                "url": "https://api.github.com/repos/make-it-all/system/zipball/fb61db047ab7c19e7d41fc590aefb4e16c82c71e",
+                "reference": "fb61db047ab7c19e7d41fc590aefb4e16c82c71e",
                 "shasum": ""
             },
             "require": {
@@ -121,7 +121,7 @@
                 "source": "https://github.com/make-it-all/system/tree/master",
                 "issues": "https://github.com/make-it-all/system/issues"
             },
-            "time": "2017-02-20 02:19:56"
+            "time": "2017-02-20 02:43:46"
         }
     ],
     "packages-dev": [],
