@@ -1,12 +1,12 @@
 <?php
 
-class CallProblem extends Chronicle\Base {
+class Departments extends Chronicle\Base {
 
-  public static $table_name = 'call_problems';
+  public static $table_name = 'departments';
 
   public static $validations = [
+    'id' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]], 'uniqueness'=>true],
     'name' => ['presence'=>true, 'length'=>['max',255]],
-    'address_id' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11], 'uniqueness'=>true],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'updated_at' => ['format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
