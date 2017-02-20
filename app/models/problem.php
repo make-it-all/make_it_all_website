@@ -1,5 +1,12 @@
 <?php
 
+/*
+  Problem (Model)
+  The problem model is a php represntation of the table named `problems`.
+  See \Chronicle\Base for more infomation.
+
+*/
+
 class Problem extends Chronicle\Base {
 
   public static $table_name = 'problems';
@@ -28,10 +35,11 @@ class Problem extends Chronicle\Base {
     'worked_on' => ['presence'=>true, 'numericality'=>true, 'length'=>['equal',1], 'inclusion'=>['0','1']],
     'solution_id' => ['numericality'=>true, 'length'=>['max',11]],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'updated_at' => ['presence'=>true, 'format'=>true],
+    'updated_at' => ['format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'created_at' => ['presence'=>true, 'format'=>true]
+    'created_at' => ['format'=>true]
 
   ];
+
 
 }
