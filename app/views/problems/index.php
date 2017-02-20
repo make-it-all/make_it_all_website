@@ -50,7 +50,7 @@
         <tr>
           <td><?php echo $problem->id; ?></td>
           <td><?php echo $problem->specialization_id; ?></td>
-          <td><?php echo $problem->submitted_by; ?></td>
+          <td><?php echo $problem->submitted_by->name; ?></td>
           <td><?php echo $problem->assigned_to; ?></td>
           <td><?php echo $problem->solution_id; ?></td>
           <td><?php echo $this->link_to('edit', "/problems/$problem->id/edit"); ?></td>
