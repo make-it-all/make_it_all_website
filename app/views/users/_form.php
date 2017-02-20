@@ -1,4 +1,7 @@
 <h1><?php echo $edit_type ?> User</h1>
+<div class="actions">
+  <input type="button" name="cancel" value="Cancel" href="/users/">
+</div>
 <?php $this->form_for($user, '/users/new', ['class'=>'with_panels']); ?>
 
     <?php if ($user->errors()->any()): ?>

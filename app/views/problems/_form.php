@@ -1,4 +1,8 @@
 <h1><?php echo $edit_type ?> Problem</h1>
+<div class="actions">
+  <input type="button" name="cancel" value="Cancel">
+</div>
+
 <?php $this->form_for($problem, '/problems/new', ['class'=>'with_panels']); ?>
 
   <?php if ($problem->errors()->any()): ?>
@@ -43,7 +47,7 @@
       <div class="tab_panels_container">
         <div class="tab_panel">
           <fieldset>
-            <?php $this->text_field($problem, 'id'); ?>
+            <input type="text" name="descripion" value="Description">
           </fieldset>
         </div>
         <div class="tab_panel">

@@ -1,4 +1,8 @@
 <h1><?php echo $edit_type ?> Call</h1>
+<div class="actions">
+  <input type="button" name="cancel" value="Cancel">
+</div>
+
 <?php $this->form_for($call, '/calls/new', ['class'=>'with_panels']); ?>
 
   <?php if ($call->errors()->any()): ?>
@@ -31,7 +35,7 @@
       <div class="tab_panels_container">
         <div class="tab_panel">
           <fieldset>
-            <?php $this->text_field($call, 'caller_id'); ?>
+            <input type="text" name="Description" value="Description...">
           </fieldset>
         </div>
       </div>

@@ -1,4 +1,8 @@
 <h1><?php echo $edit_type ?> Personnel</h1>
+<div class="actions">
+  <input type="button" name="cancel" value="Cancel">
+</div>
+
 <?php $this->form_for($personnel, '/personnel/new', ['class'=>'with_panels']); ?>
 
   <?php if ($personnel->errors()->any()): ?>
