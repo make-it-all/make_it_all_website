@@ -1,6 +1,5 @@
-<div id="page_head">
-  <div id="page_info">
     <div id="page_title">
+    <div id="page_info">
       <h1><?php echo $users->count() . ' ' . $this->i('titles.users'); ?></h1>
       <div id="page_actions">
         <?php echo $this->link_to($this->i('actions.new'), '/users/new'); ?>

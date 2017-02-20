@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "80c603482c036fc90dacc00d4e423643",
     "content-hash": "0f3e9ab4de11015e21e7e49534a552d7",
     "packages": [
         {
@@ -12,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/chronicle.git",
-                "reference": "3933129eed4a5ba41293254d63392e0cab698d1e"
+                "reference": "2625101154922ccc5c645a95510b3dd592d884a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/3933129eed4a5ba41293254d63392e0cab698d1e",
-                "reference": "3933129eed4a5ba41293254d63392e0cab698d1e",
+                "url": "https://api.github.com/repos/make-it-all/chronicle/zipball/2625101154922ccc5c645a95510b3dd592d884a6",
+                "reference": "2625101154922ccc5c645a95510b3dd592d884a6",
                 "shasum": ""
             },
             "type": "library",
@@ -42,7 +43,7 @@
                 "source": "https://github.com/make-it-all/chronicle/tree/master",
                 "issues": "https://github.com/make-it-all/chronicle/issues"
             },
-            "time": "2017-02-20 05:23:16"
+            "time": "2017-02-20 08:50:43"
         },
         {
             "name": "hexmodr/rack",
@@ -50,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/rack.git",
-                "reference": "f1c72f4235583012d09faa04b87bb2b6bf748d3e"
+                "reference": "ce4d94bae46296d2e25275e8a8da3ea41be22937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/rack/zipball/f1c72f4235583012d09faa04b87bb2b6bf748d3e",
-                "reference": "f1c72f4235583012d09faa04b87bb2b6bf748d3e",
+                "url": "https://api.github.com/repos/make-it-all/rack/zipball/ce4d94bae46296d2e25275e8a8da3ea41be22937",
+                "reference": "ce4d94bae46296d2e25275e8a8da3ea41be22937",
                 "shasum": ""
             },
             "type": "library",
@@ -78,7 +79,7 @@
                 "source": "https://github.com/make-it-all/rack/tree/master",
                 "issues": "https://github.com/make-it-all/rack/issues"
             },
-            "time": "2017-02-19 00:30:49"
+            "time": "2017-02-20 07:21:02"
         },
         {
             "name": "make_it_all/system",
@@ -86,12 +87,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/make-it-all/system.git",
-                "reference": "8abcda00f38e55589e959e0bc3b02a27df13f358"
+                "reference": "bbaa2b8f6304acda9ba0e8b9ab0e58f2fb30e95f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/make-it-all/system/zipball/8abcda00f38e55589e959e0bc3b02a27df13f358",
-                "reference": "8abcda00f38e55589e959e0bc3b02a27df13f358",
+                "url": "https://api.github.com/repos/make-it-all/system/zipball/bbaa2b8f6304acda9ba0e8b9ab0e58f2fb30e95f",
+                "reference": "bbaa2b8f6304acda9ba0e8b9ab0e58f2fb30e95f",
                 "shasum": ""
             },
             "require": {
@@ -120,7 +121,7 @@
                 "source": "https://github.com/make-it-all/system/tree/master",
                 "issues": "https://github.com/make-it-all/system/issues"
             },
-            "time": "2017-02-20 05:33:55"
+            "time": "2017-02-20 09:18:15"
         }
     ],
     "packages-dev": [],
