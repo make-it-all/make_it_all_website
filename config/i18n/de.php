@@ -1,5 +1,14 @@
 <?php
 
+/*
+The I18n (German) file contains variables for all the the German translations of the keywords on the website,
+Internationalisation (German)
+The views pull the correct string from the relevant file depending on both browser preference
+and saved user preference.
+
+@Contributers Zach Nurcombe
+*/
+
 $header = [
   'signed_in_message'=>'Als <b>Alice Help</b> angemeldet - ',
   'logout'=>'Ausloggen',

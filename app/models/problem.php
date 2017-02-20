@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
 /*
   Problem (Model)
   The problem model is a php represntation of the table named `problems`.
@@ -8,10 +7,9 @@
 
 */
 
-class Problem extends Chronicle\Base {
-=======
+
 class Problem extends ApplicationModel {
->>>>>>> f5fae12d32c986c5ddabcffe1fa6696010c0b298
+
 
   public static $table_name = 'problems';
 
