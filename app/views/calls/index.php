@@ -42,9 +42,9 @@
           <td>
             <?php echo $call->id; ?>
           </td>
-          <td><?php echo $call->operator_id; ?></td>
-          <td><?php echo $call->caller_id; ?></td>
-          <td><?php echo $call->updated_by; ?></td>
+          <td><?php echo $call->operator()->name; ?></td>
+          <td><?php echo $call->caller()->name; ?></td>
+          <td><?php echo $call->updated_by()->name; ?></td>
           <td><?php echo $call->updated_at; ?></td>
           <td><?php echo $this->link_to('edit', "/calls/$call->id/edit"); ?></td>
           <td><?php echo $this->link_to('delete', "/calls/$call->id", 'DELETE'); ?></td>
