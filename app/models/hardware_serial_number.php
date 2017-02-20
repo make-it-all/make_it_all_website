@@ -1,6 +1,6 @@
 <?php
 
-class HardwareSerialNumber extends Chronicle\Base {
+class HardwareSerialNumber extends ApplicationModel {
 
   public static $table_name = 'hardware_serial_numbers';
 

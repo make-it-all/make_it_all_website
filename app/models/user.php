@@ -1,6 +1,6 @@
 <?php
 
-class User extends Chronicle\Base {
+class User extends ApplicationModel {
 
   private $roles;
 

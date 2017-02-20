@@ -1,6 +1,6 @@
 <?php
 
-class SoftwareLicenseKey extends Chronicle\Base {
+class SoftwareLicenseKey extends ApplicationModel {
 
   public static $table_name = 'software_license_keys';
 

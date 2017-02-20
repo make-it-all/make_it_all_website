@@ -1,6 +1,6 @@
 <?php
 
-class Country extends Chronicle\Base {
+class Country extends ApplicationModel {
 
   public static $table_name = 'countries';
 

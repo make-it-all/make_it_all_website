@@ -1,6 +1,6 @@
 <?php
 
-class SpecializationUser extends Chronicle\Base {
+class SpecializationUser extends ApplicationModel {
 
   public static $table_name = 'specialization_users';
 
