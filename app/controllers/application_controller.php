@@ -22,9 +22,4 @@ class ApplicationController extends \Controller\Base {
   public function logged_in() {
     return $this->current_user() !== null;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 4cb74de5a8730cab1f097c19c9c99f9b35bc8679
-
 }
