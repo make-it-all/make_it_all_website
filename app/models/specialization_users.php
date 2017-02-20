@@ -1,8 +1,8 @@
 <?php
 
-class CallProblem extends Chronicle\Base {
+class SpecializationUsers extends Chronicle\Base {
 
-  public static $table_name = 'call_problems';
+  public static $table_name = 'specialization_users';
 
   public static $validations = [
     'name' => ['presence'=>true, 'length'=>['max',255]],
