@@ -11,6 +11,7 @@ $r->get('/login', 'sessions#new');
 $r->post('/login', 'sessions#create');
 $r->delete('/logout', 'sessions#destroy');
 
-
-$r->get('/admin/login', 'sessions#admin_login');
-$r->get('/admin/login/:id', 'sessions#admin_login');
+if (Application::env()->is_development()) {
+  $r->get('/admin/login', 'sessions#admin_login');
+  $r->get('/admin/login/:id', 'sessions#admin_login');
+}

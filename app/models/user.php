@@ -21,9 +21,9 @@ class User extends Chronicle\Base {
     'is_lboro_admin' => ['presence'=>true, 'numericality'=>true, 'length'=>['equal',1], 'inclusion'=>['0','1']],
     'last_seen_at' => ['format'=>true],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'updated_at' => ['format'=>true],
+    'updated_at' => ['presence'=>true, 'format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'created_at' => ['format'=>true]
+    'created_at' => ['presence'=>true, 'format'=>true]
 
   ];
 

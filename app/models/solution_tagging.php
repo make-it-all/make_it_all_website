@@ -12,9 +12,9 @@ class SolutionTagging extends Chronicle\Base {
     'solution_tag_id' => ['presence', 'numericality'=>true, 'length'=>['max',11]],
     'solution_id' => ['presence', 'numericality'=>true, 'length'=>['max',11]],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'updated_at' => ['format'=>true],
+    'updated_at' => ['presence'=>true, 'format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'created_at' => ['format'=>true]
+    'created_at' => ['presence'=>true, 'format'=>true]
 
   ];
 
