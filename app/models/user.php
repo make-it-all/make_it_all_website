@@ -33,10 +33,6 @@ class User extends Chronicle\Base {
     return $record;
   }
 
-  public static $validations = [
-    'name' => ['presence' => true]
-  ];
-
   public function personnel() {
     return Personnel::find_by(['id' => $this->personnel_id]);
   }

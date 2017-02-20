@@ -40,7 +40,7 @@
       <?php foreach($users as $user): ?>
         <tr>
           <td>
-            <?php if ($user->personnel() !== null) { echo $user->personnel()->personnel_id; } ?>
+            <?php if ($user->personnel() !== null) { echo $user->personnel()->personnel_identifier; } ?>
           </td>
           <td><?php echo $user->name; ?></td>
           <td><?php echo $user->email; ?></td>
