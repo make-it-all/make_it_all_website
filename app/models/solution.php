@@ -9,7 +9,7 @@ class Solution extends Chronicle\Base {
   }
 
   public static $validations = [
-    'provided_by' => ['numericality'=>true, 'length'=>['max',11]],
+    'provided_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'updated_at' => ['format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
