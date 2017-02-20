@@ -9,8 +9,8 @@ class Country extends Chronicle\Base {
     'iso2' => ['presence'=>false, 'length'=>['equal',2]], 'uniqueness'=>true],
     'iso3' => ['presence'=>false, 'length'=>['equal',3]], 'uniqueness'=>true],
     'iso_num' => 'presence'=>false, 'numericality'=>true, 'length'=>['equal',3], 'uniqueness'=>true],
-    'updated_at' => ['format'=>true],
-    'created_at' => ['format'=>true]
+    'updated_at' => ['presence'=>true, 'format'=>true],
+    'created_at' => ['presence'=>true, 'format'=>true]
 
   ];
 

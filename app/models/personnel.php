@@ -20,9 +20,9 @@ class Personnel extends Chronicle\Base {
     'branch_id' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'department_id' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'updated_at' => ['format'=>true],
+    'updated_at' => ['presence'=>true, 'format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'created_at' => ['format'=>true]
+    'created_at' => ['presence'=>true, 'format'=>true]
   ];
 
 }

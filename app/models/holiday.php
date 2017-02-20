@@ -9,9 +9,9 @@ class Holiday extends Chronicle\Base {
     'start_date' => ['presence'=>true, 'format'=>true],
     'end_date' => ['presence'=>true, 'format'=>true],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'updated_at' => ['format'=>true],
+    'updated_at' => ['presence'=>true, 'format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'created_at' => ['format'=>true]
+    'created_at' => ['presence'=>true, 'format'=>true]
 
   ];
 
