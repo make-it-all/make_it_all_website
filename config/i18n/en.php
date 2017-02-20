@@ -17,8 +17,8 @@ $titles = [
   'users'=>'Users',
   'reports'=>'Reports',
   'settings'=>'Settings',
-  'hardware'=>'Hardware',
-  'software'=>'Software',
+  'hardware'=>'Hardware ',
+  'software'=>'Software ',
   'title'=>'Make It All',
   ];
 
