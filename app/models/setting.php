@@ -1,6 +1,6 @@
 <?php
 
-class Setting extends Chronicle\Base {
+class Setting extends ApplicationModel {
 
   public static $table_name = 'settings';
 
