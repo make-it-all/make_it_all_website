@@ -6,7 +6,7 @@ class Description extends Chronicle\Base {
 
   public static $validations = [
     'body' => ['presence'=>true],
-    'language_id' => ['numericality'=>true, 'length'=>['max',11]],
+    'language_id' => ['presence'=>true, 'length'=>['max',11], 'numericality'=>true],
     'describable_type' => ['presence'=>true, 'length'=>['max',255]],
     'describable_id' => ['presence'=>true, 'length'=>['max',11], 'numericality'=>true],
     'author_id' => ['presence'=>true, 'length'=>['max',255], 'numericality'=>true, 'uniqueness'=>true],
