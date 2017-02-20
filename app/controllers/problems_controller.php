@@ -1,5 +1,15 @@
 <?php
 
+/*
+  Controller (Problems)
+  The Problems Controller provide a way to pass needed data to the views.
+  They control what happens when recieving any HTTP requests.
+  They act upon data and decided whether render a view or redirect to another url.
+  See Controller\Base for more information.
+
+  @contributers Henry Morgan, Chris Head, Zach Nurcombe
+*/
+
 class ProblemsController extends ApplicationController {
 
   public function index() {

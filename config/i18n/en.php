@@ -1,4 +1,12 @@
 <?php
+/*
+Internationalisation (English)
+The I18n (English) file contains variables for all the the English translations of the keywords on the website,
+The views pull the correct string from the relevant file depending on both browser preference
+and saved user preference.
+
+@Contributers Zach Nurcombe
+*/
 
 $header = [
   'signed_in_message'=>'Signed in as <b>{{name}}</b> - ',
