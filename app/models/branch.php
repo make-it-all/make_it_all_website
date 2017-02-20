@@ -1,5 +1,5 @@
 <?php
-
+//ch
 class Branch extends ApplicationModel {
 
   public static $table_name = 'branches';

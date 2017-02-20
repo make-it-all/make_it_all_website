@@ -1,5 +1,5 @@
 <?php
-
+//ch
 class Department extends ApplicationModel {
 
   public static $table_name = 'departments';

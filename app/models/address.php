@@ -1,5 +1,9 @@
 <?php
-
+/*
+   Address Model: Declares validations for values in the fields of the
+                  addresses table.
+   @Contributers: Christopher Head
+*/
 class Address extends ApplicationModel {
 
   public static $table_name = 'addresses';

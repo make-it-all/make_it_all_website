@@ -1,5 +1,5 @@
 <?php
-
+//jd
 class LanguagePersonnel extends ApplicationModel {
 
   public static $table_name = 'language_personnel';

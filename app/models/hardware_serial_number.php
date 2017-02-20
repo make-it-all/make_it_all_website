@@ -1,5 +1,5 @@
 <?php
-
+//jd
 class HardwareSerialNumber extends ApplicationModel {
 
   public static $table_name = 'hardware_serial_numbers';

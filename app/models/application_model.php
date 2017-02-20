@@ -1,5 +1,5 @@
 <?php
-
+//ch
 class ApplicationModel extends \Chronicle\Base {
 
   public function before_create() {
