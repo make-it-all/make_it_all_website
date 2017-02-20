@@ -1,117 +1,59 @@
-<div id="page">
-    <div id="page_inner">
-        <div id="page_head">
-            <div id="page_info">
-                <h1>136 Personnel</h1>
-                <div id="page_actions">
-                    <a href="#">New+</a>
-                </div>
-                <p><i>29 problems have been solved since last log on</i></p>
-                <p>
-                    </i>35 problems remain outstanding</i>
-                </p>
-            </div>
-            <div id="page_filter">
-                <div id="type_filter">
-                    <p>Type</p>
-                    <div id="filter_type_1">
-                        <a href="#"> Hardware <i class="fa fa-desktop" aria-hidden="true"></i></a>
-                    </div>
-                    <div id="filter_type_2">
-                        <a href="#"> Software <i class="fa fa-file-code-o" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <form>
-                    <div id="search_bar">
-                        <input type="text" name="search_filter" placeholder="search...">
-                        <input type="submit" value="Search">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div id="page_body">
-            <div id="pagination">
-                <div id="pagination_links">
-                    <a href="#">&laquo;</a>
-                    <a href="#">1</a>
-                    <a href="#" class="active">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#">6</a>
-                    <a href="#">&raquo;</a>
-                </div>
-                <div id="pagination_results">
-                    <p>Showing 1-6 of 136</p>
-                </div>
-            </div>
-            <table class="index_table">
-                <tr>
-                    <th>Problem ID</th>
-                    <th>Type</th>
-                    <th>Description</th>
-                    <th>Keywords</th>
-                    <th>Created at</th>
-                    <th> Status</th>
-                    <th> Edit</th>
-                </tr>
-                <tr>
-                    <td>555</td>
-                    <td> <i class="fa fa-desktop" aria-hidden="true"></i></td>
-                    <td>Monitor not coming on</td>
-                    <td>monitor</td>
-                    <td>6:10pm</td>
-                    <td><i class="fa fa-check-square-o" aria-hidden="true"></i></td>
-                    <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
-                </tr>
-                <tr>
-                    <td>565</td>
-                    <td><i class="fa fa-file-code-o" aria-hidden="true"></i></td>
-                    <td>Computer screen blank</td>
-                    <td>screen</td>
-                    <td>6:10pm</td>
-                    <td><i class="fa fa-check-square-o" aria-hidden="true"></i></td>
-                    <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
-                </tr>
-                <tr>
-                    <td>566</td>
-                    <td> <i class="fa fa-file-code-o" aria-hidden="true"></i></td>
-                    <td>Computer screen blank</td>
-                    <td>screen</td>
-                    <td>6:10pm</td>
-                    <td><i id="completed" class="fa fa-check-square-o" aria-hidden="true"></i></td>
-                    <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
-                </tr>
-                <tr>
-                    <td>567</td>
-                    <td> <i class="fa fa-desktop" aria-hidden="true"></i></td>
-                    <td>Broken Printer</td>
-                    <td>broken</td>
-                    <td>6:10pm</td>
-                    <td><i class="fa fa-circle-o blue" aria-hidden="true"></i></td>
-                    <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
-                </tr>
-                <tr>
-                    <td>568</td>
-                    <td><i class="fa fa-file-code-o" aria-hidden="true"></i></td>
-                    <td>Computer screen blank</td>
-                    <td>screen</td>
-                    <td>6:10pm</td>
-                    <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
-                    <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
-                </tr>
-                <tr>
-                    <td>569</td>
-                    <td><i class="fa fa-file-code-o" aria-hidden="true"></i></td>
-                    <td>Computer screen blank</td>
-                    <td>screen</td>
-                    <td>6:10pm</td>
-                    <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
-                    <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
-                </tr>
-            </table>
-
-        </div>
+<div id="page_head">
+  <div id="page_info">
+    <div id="page_title">
+      <h1><?php echo $personnels->count() . ' ' . $this->i('titles.personnel'); ?></h1>
+      <div id="page_actions">
+        <?php echo $this->link_to($this->i('actions.new'), '/personnel/new'); ?>
+      </div>
     </div>
+    <?php if (isset($facts)): ?>
+      <div id="page_stats">
+        <?php foreach ($facts as $fact): ?>
+          <p><?php echo $fact; ?></p>
+        <?php endforeach; ?>
+      </div>
+    <?php endif; ?>
+  </div>
+  <div id="page_filter">
+    <div class="search_bar">
+      <?php $this->render('search_form'); ?>
+    </div>
+  </div>
 </div>
+
+<div id="page_body">
+  <?php $this->render('pagination', ['records' => $personnels]); ?>
+
+  <table class="index_table">
+    <thead>
+      <tr>
+        <th> <?php echo $this->i('table_headings.id'); ?></th>
+        <th> <?php echo $this->i('table_headings.name'); ?></th>
+        <th> <?php echo $this->i('table_headings.email'); ?></th>
+        <th> <?php echo $this->i('table_headings.telephone_number'); ?></th>
+        <th> <?php echo $this->i('table_headings.job_title'); ?></th>
+        <th> <?php echo $this->i('table_headings.department_id'); ?></th>
+        <th> <?php echo $this->i('table_headings.branch_id'); ?></th>
+        <th> <?php echo $this->i('actions.edit'); ?></th>
+        <th> <?php echo $this->i('actions.delete'); ?></th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php foreach($personnels as $personnel): ?>
+        <tr>
+          <td>
+            <?php echo $personnel->personnel_identifier; ?>
+          </td>
+          <td><?php echo $personnel->name; ?></td>
+          <td><?php echo $personnel->email; ?></td>
+          <td><?php echo $personnel->telephone_number; ?></td>
+          <td><?php echo $personnel->job_title; ?></td>
+          <td><?php echo $personnel->department_id; ?></td>
+          <td><?php echo $personnel->branch_id; ?></td>
+          <td><?php echo $this->link_to('edit', "/personnel/$personnel->id/edit"); ?></td>
+            <td><?php echo $this->link_to('delete', "/personnel/$personnel->id", 'DELETE'); ?></td>
+        </tr>
+      <?php endforeach; ?>
+    </tbody>
+  </table>
 </div>

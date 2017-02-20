@@ -2,18 +2,13 @@
 
 $header = [
   'signed_in_message'=>'Signed in as <b>Alice Help</b> - ',
-  'logout'=>'Log Out',
-];
-
-$pagination = [
-  'showing_text'=>'Showing 1-6 of 136',
 ];
 
 $titles = [
   'dashboard'=>'Dashboard',
-  'calls'=>'Calls',
-  'problems'=>'Problems',
-  'personnel'=>'Personnel',
+  'calls'=>'Telefonieren',
+  'problems'=>'Probleme',
+  'personnel'=>'Personal',
   'users'=>'Users',
   'reports'=>'Reports',
   'settings'=>'Settings',
@@ -44,16 +39,4 @@ $table_headings = [
   'last_seen_at'=>'Last Seen At',
   'role'=>'Role',
   'type'=>'Type',
-  'operator_id'=>'Operator ID',
-  'caller_id'=>'Caller ID',
-  'updated_by'=>'Updated By',
-  'updated_at'=>'Updated At',
-  'job_title'=>'Job Title',
-  'branch_id'=>'Branch',
-  'department_id'=>'Department',
-  'telephone_number'=>'Phone Number',
-  'specialization'=>'Specialization',
-  'submitted_by'=>'Submitted By',
-  'assigned_to'=>'Assigned To',
-  'solution_id'=>'Solution',
 ];

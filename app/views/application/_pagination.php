@@ -10,6 +10,6 @@
     <a href="#">&raquo;</a>
   </div>
   <div id="pagination_results">
-    <p>Showing 1-6 of 136</p>
+    <p><?php echo $this->i('pagination.showing_text'); ?></p>
   </div>
 </div>

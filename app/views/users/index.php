@@ -2,7 +2,9 @@
   <div id="page_info">
     <div id="page_title">
       <h1><?php echo $users->count() . ' ' . $this->i('titles.users'); ?></h1>
-      <?php echo $this->link_to($this->i('actions.new'), '/users/new'); ?>
+      <div id="page_actions">
+        <?php echo $this->link_to($this->i('actions.new'), '/users/new'); ?>
+      </div>
     </div>
     <?php if (isset($facts)): ?>
       <div id="page_stats">
@@ -13,13 +15,9 @@
     <?php endif; ?>
   </div>
   <div id="page_filter">
-    <div class="fitler">
-      <h5>Type</h5>
-      <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop')); ?>
-      <?php echo $this->link_to($this->i('titles.software') . $this->icon('file-code-o')); ?>
+    <div class="search_bar">
+      <?php $this->render('search_form'); ?>
     </div>
-    <?php $this->render('search_form'); ?>
-
   </div>
 </div>
 
@@ -49,9 +47,7 @@
           <td><?php echo $user->last_seen_at; ?></td>
           <td><?php echo implode(', ', $user->roles()); ?></td>
           <td><?php echo $this->link_to('edit', "/users/$user->id/edit"); ?></td>
-          <?php if ($user->is_admin): ?>
             <td><?php echo $this->link_to('delete', "/users/$user->id", 'DELETE'); ?></td>
-          <?php endif; ?>
         </tr>
       <?php endforeach; ?>
     </tbody>
