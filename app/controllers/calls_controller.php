@@ -3,6 +3,7 @@
 class CallsController extends ApplicationController {
 
   public function index() {
+    $this->total_records = Call::all()->count();
     $this->offset = (($this->params['page'] ?? 1)-1)*10;
     $this->calls = Call::all()->offset($this->offset)->limit(10)->results();
   }

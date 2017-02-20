@@ -12,10 +12,10 @@
   </div>
   <div id="pagination_results">
     <p>Showing <?php echo $offset+1 ?>-<?php
-    if ($offset+10>$records->class::count()) {
-      echo $records->class::count();
+    if ($offset+10 > ($records->class::count()-1)) {
+      echo $total_records;
     }else {
       echo $offset+10;
-    } ?> of <?php echo$records->class::count(); ?></p>
+    } ?> of <?php echo $total_records; ?></p>
   </div>
 </div>

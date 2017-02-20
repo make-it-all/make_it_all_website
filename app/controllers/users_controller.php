@@ -3,6 +3,7 @@
 class UsersController extends ApplicationController {
 
   public function index() {
+    $this->total_records = User::where(['is_lboro_admin' => false])->count();
     $this->offset = (($this->params['page'] ?? 1)-1)*10;
     $this->users = User::where(['is_lboro_admin' => false])->offset($this->offset)->limit(10)->results();
   }

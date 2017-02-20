@@ -3,6 +3,7 @@
 class ProblemsController extends ApplicationController {
 
   public function index() {
+    $this->total_records = Problem::all()->count();
     $this->offset = (($this->params['page'] ?? 1)-1)*10;
     $this->problems = Problem::all()->offset($this->offset)->limit(10)->results();
   }

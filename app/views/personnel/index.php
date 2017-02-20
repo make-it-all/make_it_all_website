@@ -23,7 +23,7 @@
 
 
 <div id="page_body">
-  <?php $this->render('pagination', ['records' => $personnels, 'offset' => $offset]); ?>
+  <?php $this->render('pagination', ['records' => $personnels, 'offset' => $offset, 'total_records' => $total_records]); ?>
 
   <table class="index_table">
     <thead>
