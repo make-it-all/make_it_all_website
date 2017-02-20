@@ -1,21 +1,16 @@
 <?php
 
-class Software extends Chronicle\Base {
+class SoftwareLicenseKey extends Chronicle\Base {
 
-  public static $table_name = 'software';
+  public static $table_name = 'software_license_keys';
 
   public function get_submitted_by() {
     return User::find($this->get_attribute('submitted_by')->get());
   }
 
   public static $validations = [
-    'hardware_id' => ['numericality'=>true, 'length'=>['max',11]],
-    'software_id' => ['numericality'=>true, 'length'=>['max',11]],
-    'specialization_id' => ['numericality'=>true, 'length'=>['max',11]],
-    'submitted_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
-    'assigned_to' => ['numericality'=>true, 'length'=>['max',11]],
-    'worked_on' => ['presence'=>true, 'numericality'=>true, 'length'=>['equal',1], 'inclusion'=>['0','1']],
-    'solution_id' => ['numericality'=>true, 'length'=>['max',11]],
+    'soft_key' => ['presence'=>true, 'length'=>['max',255],
+    'software_id' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'updated_at' => ['format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
