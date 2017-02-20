@@ -1,5 +1,13 @@
 <?php
-//ch
+
+/*
+  Department (Model)
+  The department model is a php represntation of the table named `departments`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Chris Head
+*/
+
 class Department extends ApplicationModel {
 
   public static $table_name = 'departments';

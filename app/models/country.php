@@ -1,5 +1,13 @@
 <?php
-//n
+
+/*
+  Country (Model)
+  The country model is a php represntation of the table named `countries`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Nicole Wilcox
+*/
+
 class Country extends ApplicationModel {
 
   public static $table_name = 'countries';

@@ -5,10 +5,11 @@
   The problem model is a php represntation of the table named `problems`.
   See \Chronicle\Base for more infomation.
 
+  @contributers Henry Morgan, Chris Head, Zach Nurcombe
 */
 
 class Problem extends ApplicationModel {
-  
+
 
   public static $table_name = 'problems';
 

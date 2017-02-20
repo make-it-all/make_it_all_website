@@ -1,5 +1,13 @@
 <?php
-//jd
+
+/*
+  ProblemTagging (Model)
+  The problemTagging model is a php represntation of the table named `problem_tagging`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class ProblemTagging extends ApplicationModel {
 
   public static $table_name = 'problem_tagging';

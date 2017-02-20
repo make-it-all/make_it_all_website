@@ -1,5 +1,13 @@
 <?php
-//jd
+
+/*
+  LanguageUser (Model)
+  The languageUser model is a php represntation of the table named `language_users`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class LanguageUser extends ApplicationModel {
 
   public static $table_name = 'language_users';

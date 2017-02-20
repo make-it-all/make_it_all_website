@@ -1,5 +1,14 @@
 <?php
-//jd
+
+/*
+  HardwareSerialNumber (Model)
+  The hardwareSerialNumber model is a php represntation of the table
+  named `hardware_serial_numbers`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class HardwareSerialNumber extends ApplicationModel {
 
   public static $table_name = 'hardware_serial_numbers';

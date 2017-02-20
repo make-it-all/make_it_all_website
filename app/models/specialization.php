@@ -1,5 +1,14 @@
 <?php
-//ch
+
+/*
+  Specialization (Model)
+  The specialization model is a php represntation of the table
+  named `specializations`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Chris Head
+*/
+
 class Specialization extends ApplicationModel {
 
   public static $table_name = 'specializations';

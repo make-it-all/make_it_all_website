@@ -1,9 +1,13 @@
 <?php
+
 /*
-   Address Model: Declares validations for values in the fields of the
-                  addresses table.
-   @Contributers: Christopher Head
+  Address (Model)
+  The address model is a php represntation of the table named `addresses`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Chris Head
 */
+
 class Address extends ApplicationModel {
 
   public static $table_name = 'addresses';

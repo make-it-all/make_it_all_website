@@ -1,5 +1,14 @@
 <?php
-//jd
+
+/*
+  LanguagePersonnel (Model)
+  The languagePersonnel model is a php represntation of the table
+  named `language_personnel`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class LanguagePersonnel extends ApplicationModel {
 
   public static $table_name = 'language_personnel';

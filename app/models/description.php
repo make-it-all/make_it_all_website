@@ -1,5 +1,13 @@
 <?php
-//ch
+
+/*
+  Description (Model)
+  The description model is a php represntation of the table named `descriptions`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Chris Head
+*/
+
 class Description extends ApplicationModel {
 
   public static $table_name = 'descriptions';

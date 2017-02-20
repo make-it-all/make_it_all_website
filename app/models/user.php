@@ -1,5 +1,13 @@
 <?php
-//ch
+
+/*
+  User (Model)
+  The user model is a php represntation of the table named `users`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Henry Morgan, Chris Head, Zach Nurcombe
+*/
+
 class User extends ApplicationModel {
 
   private $roles;

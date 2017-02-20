@@ -1,5 +1,14 @@
 <?php
-//jd
+
+/*
+  SoftwareLicenseKey (Model)
+  The softwareLicenseKey model is a php represntation of the table
+  named `software_license_keys`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class SoftwareLicenseKey extends ApplicationModel {
 
   public static $table_name = 'software_license_keys';

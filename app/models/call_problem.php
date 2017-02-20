@@ -1,5 +1,13 @@
 <?php
-//ch
+
+/*
+  CallProblem (Model)
+  The callProblem model is a php represntation of the table named `call_problems`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Chris Head
+*/
+
 class CallProblem extends ApplicationModel {
 
   public static $table_name = 'call_problems';
