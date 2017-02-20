@@ -1,26 +1,11 @@
 <?php $this->image_tag('logo'); ?>
 <h1>Sign In</h1>
-<form action="/session/process.php" method="POST" id="login_form">
-  <?php if (isset($_SESSION['loggin_errors'])): ?>
-   <div class="form_errors">
-     <p><?php echo $_SESSION['loggin_errors']; ?></p>
-   </div>
- <?php endif; ?>
- <div class="field">
-   <label for="user_email">Email</label>
-   <?php if (isset($_SESSION['login_email'])): ?>
-     <input type="email" name="email" id="user_email" value="<?php echo $_SESSION['login_email']; ?>">
-   <?php else: ?>
-     <input type="email" name="email" id="user_email" />
-   <?php endif; ?>
-
-  </div>
-  <div class="field">
-    <label for="user_password">Password</label>
-    <input type="password" name="password" id="user_password">
-  </div>
+<?php echo $error ?? ''; ?>
+<form action="/login" method="POST" id="login_form">
+  <?php $this->email_field('session', 'email', $email ?? ''); ?>
+  <?php $this->password_field('session', 'password', ''); ?>
   <div class="actions">
-    <input type="submit" name="commit" value="Login">
+    <?php $this->submit_button('login'); ?>
   </div>
 </form>
 <div id="language_bar">

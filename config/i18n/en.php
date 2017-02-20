@@ -1,7 +1,7 @@
 <?php
 
 $header = [
-  'signed_in_message'=>'Signed in as <b>Alice Help</b> - ',
+  'signed_in_message'=>'Signed in as <b>{{name}}</b> - ',
   'logout'=>'Log Out',
 ];
 

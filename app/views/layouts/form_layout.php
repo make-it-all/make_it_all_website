@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><?php echo $title ?? echo $this->i('titles.title'); ?></title>
+    <title><?php echo $this->i('titles.title'); ?></title>
     <?php $this->include_stylesheet('normalize'); ?>
     <?php $this->include_stylesheet('application'); ?>
   </head>

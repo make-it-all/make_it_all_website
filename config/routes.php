@@ -7,4 +7,10 @@ $r->resources('problems', ['except'=>['show']]);
 $r->resources('personnel', ['except'=>['show']]);
 $r->resources('users', ['except'=>['show']]);
 
-$r->resources('sessions', ['only'=>['new', 'create', 'destroy']]);
+$r->get('/login', 'sessions#new');
+$r->post('/login', 'sessions#create');
+$r->delete('/logout', 'sessions#destroy');
+
+
+$r->get('/admin/login', 'sessions#admin_login');
+$r->get('/admin/login/:id', 'sessions#admin_login');
