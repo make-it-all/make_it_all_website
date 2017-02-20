@@ -5,8 +5,8 @@ class Language extends Chronicle\Base {
   public static $table_name = 'languages';
 
   public static $validations = [
-    'id' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]], 'uniqueness'=>true],
-    'name' => ['presence'=>true, 'length'=>['max',255]],
+    'name' => ['presence'=>true, 'length'=>['max', 255]],
+    'rtl' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',1]],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'updated_at' => ['format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],

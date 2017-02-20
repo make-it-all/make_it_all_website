@@ -1,11 +1,15 @@
 <?php
 
-class Department extends Chronicle\Base {
+class Solution extends Chronicle\Base {
 
-  public static $table_name = 'departments';
+  public static $table_name = 'solutions';
+
+  public function get_submitted_by() {
+    return User::find($this->get_attribute('submitted_by')->get());
+  }
 
   public static $validations = [
-    'name' => ['presence'=>true, 'length'=>['max',255], 'uniqueness'=>true],
+    'provided_by' => ['numericality'=>true, 'length'=>['max',11]],
     'updated_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
     'updated_at' => ['format'=>true],
     'created_by' => ['presence'=>true, 'numericality'=>true, 'length'=>['max',11]],
