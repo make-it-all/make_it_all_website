@@ -1,4 +1,4 @@
-/* Styled by Bema */
+/* Styled by Bema- contains all styling for pagination on page.  */
 
 #pagination{
   display: flex;
@@ -19,7 +19,7 @@
     text-decoration: none;
 }
 
-#pagination_links a.active {
+#pagination_links a.active { 
     background-color:#f2b800;
     color: white;
     border-radius: 5px;
