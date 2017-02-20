@@ -1,5 +1,13 @@
 <?php
-//jd
+
+/*
+  Solution (Model)
+  The solution model is a php represntation of the table named `solutions`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class Solution extends ApplicationModel {
 
   public static $table_name = 'solutions';

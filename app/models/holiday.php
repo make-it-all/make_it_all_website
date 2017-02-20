@@ -1,5 +1,13 @@
 <?php
-//jd
+
+/*
+  Holiday (Model)
+  The holiday model is a php represntation of the table named `holidays`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class Holiday extends ApplicationModel {
 
   public static $table_name = 'holidays';

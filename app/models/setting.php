@@ -1,5 +1,13 @@
 <?php
-//jd
+
+/*
+  Setting (Model)
+  The setting model is a php represntation of the table named `settings`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class Setting extends ApplicationModel {
 
   public static $table_name = 'settings';

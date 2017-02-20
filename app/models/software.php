@@ -1,5 +1,13 @@
 <?php
-//jd
+
+/*
+  Software (Model)
+  The software model is a php represntation of the table named `software`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class Software extends ApplicationModel {
 
   public static $table_name = 'software';

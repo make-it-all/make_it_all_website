@@ -1,5 +1,13 @@
 <?php
-//ch
+
+/*
+  Branch (Model)
+  The branch model is a php represntation of the table named `branches`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Chris Head
+*/
+
 class Branch extends ApplicationModel {
 
   public static $table_name = 'branches';

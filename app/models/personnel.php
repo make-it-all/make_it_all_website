@@ -1,5 +1,13 @@
 <?php
-//ch
+
+/*
+  Personnel (Model)
+  The Personnel model is a php represntation of the table named `personnel`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Henry Morgan, Chris Head, Zach Nurcombe
+*/
+
 class Personnel extends ApplicationModel {
 
   public static $table_name = 'personnel';

@@ -1,5 +1,13 @@
 <?php
-//jd
+
+/*
+  SolutionTag (Model)
+  The solutionTag model is a php represntation of the table named `solution_tags`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class SolutionTag extends ApplicationModel {
 
   public static $table_name = 'solution_tags';

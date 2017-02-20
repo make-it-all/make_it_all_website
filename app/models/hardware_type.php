@@ -1,5 +1,13 @@
 <?php
-//jd
+
+/*
+  HardwareType (Model)
+  The hardwareType model is a php represntation of the table named `hardware_types`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class HardwareType extends ApplicationModel {
 
   public static $table_name = 'hardware_types';

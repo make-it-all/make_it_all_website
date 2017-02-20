@@ -1,5 +1,13 @@
 <?php
-//jd
+
+/*
+  Language (Model)
+  The language model is a php represntation of the table named `languages`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Jack Delancey
+*/
+
 class Language extends ApplicationModel {
 
   public static $table_name = 'languages';

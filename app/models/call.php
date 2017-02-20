@@ -1,5 +1,13 @@
 <?php
-//ch
+
+/*
+  Call (Model)
+  The call model is a php represntation of the table named `calls`.
+  See \Chronicle\Base for more infomation.
+
+  @contributers Henry Morgan, Chris Head, Zach Nurcombe
+*/
+
 class Call extends ApplicationModel {
 
   public static $table_name = 'calls';
