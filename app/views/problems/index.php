@@ -16,7 +16,7 @@
   </div>
   <div id="page_filter">
     <div class="filter">
-      <h5><?php echo $this->i('table_headings.type'); ?></h5>
+      <h4><?php echo $this->i('table_headings.type'); ?></h4>
       <div class="filter_button">
         <?php echo $this->link_to($this->i('titles.hardware') . $this->icon('desktop'),'#'); ?>
       </div>
@@ -31,7 +31,7 @@
 </div>
 
 <div id="page_body">
-  <?php $this->render('pagination', ['records' => $problems]); ?>
+  <?php $this->render('pagination', ['records' => $problems, 'offset' => $offset, 'total_records' => $total_records]); ?>
 
   <table class="index_table">
     <thead>
@@ -49,9 +49,9 @@
       <?php foreach($problems as $problem): ?>
         <tr>
           <td><?php echo $problem->id; ?></td>
-          <td><?php echo $problem->specialization_id; ?></td>
+          <td><?php echo $problem->specialization()->name; ?></td>
           <td><?php echo $problem->submitted_by->name; ?></td>
-          <td><?php echo $problem->assigned_to; ?></td>
+          <td><?php echo $problem->assigned_to->name; ?></td>
           <td><?php echo $problem->solution_id; ?></td>
           <td><?php echo $this->link_to('edit', "/problems/$problem->id/edit"); ?></td>
           <td><?php echo $this->link_to('delete', "/problems/$problem->id", 'DELETE'); ?></td>

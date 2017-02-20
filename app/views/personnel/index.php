@@ -1,7 +1,7 @@
 <div id="page_head">
   <div id="page_info">
     <div id="page_title">
-      <h1><?php echo $personnels->count() . ' ' . $this->i('titles.personnel'); ?></h1>
+      <h1><?php echo Personnel::count() . ' ' . $this->i('titles.personnel'); ?></h1>
       <div id="page_actions">
         <?php echo $this->link_to($this->i('actions.new'), '/personnel/new'); ?>
       </div>
@@ -14,10 +14,16 @@
       </div>
     <?php endif; ?>
   </div>
+  <div id="page_filter">
+    <div class="search_bar">
+      <?php $this->render('search_form'); ?>
+    </div>
+  </div>
 </div>
 
+
 <div id="page_body">
-  <?php $this->render('pagination', ['records' => $personnels]); ?>
+  <?php $this->render('pagination', ['records' => $personnels, 'offset' => $offset, 'total_records' => $total_records]); ?>
 
   <table class="index_table">
     <thead>
@@ -43,8 +49,8 @@
           <td><?php echo $personnel->email; ?></td>
           <td><?php echo $personnel->telephone_number; ?></td>
           <td><?php echo $personnel->job_title; ?></td>
-          <td><?php echo $personnel->department_id; ?></td>
-          <td><?php echo $personnel->branch_id; ?></td>
+          <td><?php echo $personnel->department()->name; ?></td>
+          <td><?php echo $personnel->branch()->name; ?></td>
           <td><?php echo $this->link_to('edit', "/personnel/$personnel->id/edit"); ?></td>
             <td><?php echo $this->link_to('delete', "/personnel/$personnel->id", 'DELETE'); ?></td>
         </tr>

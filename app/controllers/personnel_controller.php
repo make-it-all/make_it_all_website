@@ -3,7 +3,9 @@
 class PersonnelController extends ApplicationController {
 
   public function index() {
-    $this->personnels = Personnel::all()->results();
+    $this->total_records = Personnel::all()->count();
+    $this->offset = (($this->params['page'] ?? 1)-1)*10;
+    $this->personnels = Personnel::all()->offset($this->offset)->limit(10)->results();
   }
 
   public function new() {

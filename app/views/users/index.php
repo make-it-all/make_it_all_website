@@ -14,10 +14,15 @@
       </div>
     <?php endif; ?>
   </div>
+  <div id="page_filter">
+    <div class="search_bar">
+      <?php $this->render('search_form'); ?>
+    </div>
+  </div>
 </div>
 
 <div id="page_body">
-  <?php $this->render('pagination', ['records' => $users]); ?>
+  <?php $this->render('pagination', ['records' => $users, 'offset' => $offset, 'total_records' => $total_records]); ?>
 
   <table class="index_table">
     <thead>
@@ -35,7 +40,7 @@
       <?php foreach($users as $user): ?>
         <tr>
           <td>
-            <?php if ($user->personnel() !== null) { echo $user->personnel()->personnel_id; } ?>
+            <?php if ($user->personnel() !== null) { echo $user->personnel()->personnel_identifier; } ?>
           </td>
           <td><?php echo $user->name; ?></td>
           <td><?php echo $user->email; ?></td>
