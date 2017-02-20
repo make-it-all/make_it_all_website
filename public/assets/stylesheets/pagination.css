@@ -3,6 +3,7 @@
 #pagination{
   display: flex;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0px 15px;
 }
 
 #pagination_links{
@@ -19,7 +20,7 @@
     text-decoration: none;
 }
 
-#pagination_links a.active { 
+#pagination_links a.active {
     background-color:#f2b800;
     color: white;
     border-radius: 5px;
