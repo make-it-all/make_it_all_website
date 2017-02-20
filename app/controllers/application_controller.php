@@ -3,8 +3,7 @@
 class ApplicationController extends \Controller\Base {
 
   public $layout = 'application';
-
-<<<<<<< HEAD
+  
   public function before_action($action) {
     session_start();
     if (get_called_class() !== 'SessionsController' && !$this->logged_in()) {
@@ -23,8 +22,6 @@ class ApplicationController extends \Controller\Base {
   public function logged_in() {
     return $this->current_user() !== null;
   }
-=======
 
->>>>>>> 8a5a6dd4b8457744cfd9ba6e5a44fa7126294614
 
 }
