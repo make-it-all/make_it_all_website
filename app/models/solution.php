@@ -1,5 +1,5 @@
 <?php
-
+//jd
 class Solution extends ApplicationModel {
 
   public static $table_name = 'solutions';

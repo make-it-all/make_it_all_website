@@ -1,5 +1,5 @@
 <?php
-
+//jd
 class Setting extends ApplicationModel {
 
   public static $table_name = 'settings';

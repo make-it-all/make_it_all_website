@@ -1,5 +1,5 @@
 <?php
-
+//jd
 class HardwareType extends ApplicationModel {
 
   public static $table_name = 'hardware_types';

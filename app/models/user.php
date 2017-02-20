@@ -1,5 +1,5 @@
 <?php
-
+//ch
 class User extends ApplicationModel {
 
   private $roles;

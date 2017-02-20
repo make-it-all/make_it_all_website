@@ -1,5 +1,5 @@
 <?php
-
+//ch
 class Specialization extends ApplicationModel {
 
   public static $table_name = 'specializations';

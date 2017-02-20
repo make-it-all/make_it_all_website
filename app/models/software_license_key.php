@@ -1,5 +1,5 @@
 <?php
-
+//jd
 class SoftwareLicenseKey extends ApplicationModel {
 
   public static $table_name = 'software_license_keys';

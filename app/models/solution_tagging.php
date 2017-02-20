@@ -1,5 +1,5 @@
 <?php
-
+//jd
 class SolutionTagging extends ApplicationModel {
 
   public static $table_name = 'solution_tagging';
