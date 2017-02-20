@@ -6,7 +6,7 @@ $header = [
 ];
 
 $pagination = [
-  'showing_text'=>'Showing 1-6 of 136',
+  'showing_text'=>'Showing {{low}}-{{high}} of {{total}}',
 ];
 
 $titles = [
