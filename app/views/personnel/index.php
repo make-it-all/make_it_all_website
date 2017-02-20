@@ -48,8 +48,8 @@
           <td><?php echo $personnel->email; ?></td>
           <td><?php echo $personnel->telephone_number; ?></td>
           <td><?php echo $personnel->job_title; ?></td>
-          <td><?php echo $personnel->department_id; ?></td>
-          <td><?php echo $personnel->branch_id; ?></td>
+          <td><?php echo $personnel->department()->name; ?></td>
+          <td><?php echo $personnel->branch()->name; ?></td>
           <td><?php echo $this->link_to('edit', "/personnel/$personnel->id/edit"); ?></td>
             <td><?php echo $this->link_to('delete', "/personnel/$personnel->id", 'DELETE'); ?></td>
         </tr>

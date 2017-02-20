@@ -5,7 +5,7 @@ class Problem extends Chronicle\Base {
   public static $table_name = 'problems';
 
   public function specialization() {
-    return Specializations::find($this->specialization_id);
+    return Specialization::find($this->specialization_id);
   }
 
   public function get_assigned_to() {
